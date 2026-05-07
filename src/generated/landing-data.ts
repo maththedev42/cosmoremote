@@ -2,26 +2,10 @@
 export const landingData = {
   "pricing": {
     "source": "storekit",
-    "byLocale": {
-      "en": {
-        "currency": "USD",
-        "monthly": 2.99,
-        "yearly": 29.99,
-        "lifetime": 99.99
-      },
-      "pt-BR": {
-        "currency": "BRL",
-        "monthly": 19.9,
-        "yearly": 199.9,
-        "lifetime": 99.99
-      },
-      "es": {
-        "currency": "EUR",
-        "monthly": 2.99,
-        "yearly": 34.99,
-        "lifetime": 99.99
-      }
-    }
+    "currency": "USD",
+    "monthly": 4.99,
+    "yearly": 39.99,
+    "lifetime": null
   },
   "screenshots": {
     "en": {
