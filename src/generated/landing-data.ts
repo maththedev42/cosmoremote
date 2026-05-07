@@ -11,41 +11,41 @@ export const landingData = {
     "en": {
       "iphone": [
         {
-          "src": "/screenshots/en/iphone-1.png",
+          "src": "/screenshots/en/iphone-1-ee151c81b680.png",
           "alt": "App Store iPhone image 1"
         },
         {
-          "src": "/screenshots/en/iphone-2.png",
+          "src": "/screenshots/en/iphone-2-d1c4fc4be815.png",
           "alt": "App Store iPhone image 2"
         },
         {
-          "src": "/screenshots/en/iphone-3.png",
+          "src": "/screenshots/en/iphone-3-d435d6f5dfe6.png",
           "alt": "App Store iPhone image 3"
         },
         {
-          "src": "/screenshots/en/iphone-4.png",
+          "src": "/screenshots/en/iphone-4-dbca7b78c305.png",
           "alt": "App Store iPhone image 4"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/en/ipad-1.png",
+          "src": "/screenshots/en/ipad-1-723d8da0717c.png",
           "alt": "App Store iPad image 1"
         },
         {
-          "src": "/screenshots/en/ipad-2.png",
+          "src": "/screenshots/en/ipad-2-879bbb3dc381.png",
           "alt": "App Store iPad image 2"
         },
         {
-          "src": "/screenshots/en/ipad-3.png",
+          "src": "/screenshots/en/ipad-3-dc3f5c28063d.png",
           "alt": "App Store iPad image 3"
         },
         {
-          "src": "/screenshots/en/ipad-4.png",
+          "src": "/screenshots/en/ipad-4-10cb6d26fc50.png",
           "alt": "App Store iPad image 4"
         },
         {
-          "src": "/screenshots/en/ipad-5.png",
+          "src": "/screenshots/en/ipad-5-28aff599f592.png",
           "alt": "App Store iPad image 5"
         }
       ],
@@ -57,45 +57,45 @@ export const landingData = {
     "pt-BR": {
       "iphone": [
         {
-          "src": "/screenshots/pt-BR/iphone-1.png",
+          "src": "/screenshots/pt-BR/iphone-1-e4b5bdb88c48.png",
           "alt": "App Store iPhone image 1"
         },
         {
-          "src": "/screenshots/pt-BR/iphone-2.png",
+          "src": "/screenshots/pt-BR/iphone-2-a0f05cd2bc4d.png",
           "alt": "App Store iPhone image 2"
         },
         {
-          "src": "/screenshots/pt-BR/iphone-3.png",
+          "src": "/screenshots/pt-BR/iphone-3-24c9b63a0a95.png",
           "alt": "App Store iPhone image 3"
         },
         {
-          "src": "/screenshots/pt-BR/iphone-4.png",
+          "src": "/screenshots/pt-BR/iphone-4-034af054d3c0.png",
           "alt": "App Store iPhone image 4"
         },
         {
-          "src": "/screenshots/pt-BR/iphone-5.png",
+          "src": "/screenshots/pt-BR/iphone-5-b4a2e6898634.png",
           "alt": "App Store iPhone image 5"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/pt-BR/ipad-1.png",
+          "src": "/screenshots/pt-BR/ipad-1-bfd0faed380d.png",
           "alt": "App Store iPad image 1"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-2.png",
+          "src": "/screenshots/pt-BR/ipad-2-1a2ddf258b59.png",
           "alt": "App Store iPad image 2"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-3.png",
+          "src": "/screenshots/pt-BR/ipad-3-4450727330e3.png",
           "alt": "App Store iPad image 3"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-4.png",
+          "src": "/screenshots/pt-BR/ipad-4-2f5b1b816d16.png",
           "alt": "App Store iPad image 4"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-5.png",
+          "src": "/screenshots/pt-BR/ipad-5-162ce471b6fd.png",
           "alt": "App Store iPad image 5"
         }
       ],
@@ -107,41 +107,41 @@ export const landingData = {
     "es": {
       "iphone": [
         {
-          "src": "/screenshots/es/iphone-1.png",
+          "src": "/screenshots/es/iphone-1-d824028684dc.png",
           "alt": "App Store iPhone image 1"
         },
         {
-          "src": "/screenshots/es/iphone-2.png",
+          "src": "/screenshots/es/iphone-2-4bedce42309d.png",
           "alt": "App Store iPhone image 2"
         },
         {
-          "src": "/screenshots/es/iphone-3.png",
+          "src": "/screenshots/es/iphone-3-67bd2bd8733d.png",
           "alt": "App Store iPhone image 3"
         },
         {
-          "src": "/screenshots/es/iphone-4.png",
+          "src": "/screenshots/es/iphone-4-bdbd34e5f670.png",
           "alt": "App Store iPhone image 4"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/es/ipad-1.png",
+          "src": "/screenshots/es/ipad-1-b173e66b99a2.png",
           "alt": "App Store iPad image 1"
         },
         {
-          "src": "/screenshots/es/ipad-2.png",
+          "src": "/screenshots/es/ipad-2-1bf0d5cc6815.png",
           "alt": "App Store iPad image 2"
         },
         {
-          "src": "/screenshots/es/ipad-3.png",
+          "src": "/screenshots/es/ipad-3-2819ab66d096.png",
           "alt": "App Store iPad image 3"
         },
         {
-          "src": "/screenshots/es/ipad-4.png",
+          "src": "/screenshots/es/ipad-4-2abbe4b8e479.png",
           "alt": "App Store iPad image 4"
         },
         {
-          "src": "/screenshots/es/ipad-5.png",
+          "src": "/screenshots/es/ipad-5-e7ab8dcb7f33.png",
           "alt": "App Store iPad image 5"
         }
       ],
