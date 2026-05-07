@@ -80,57 +80,52 @@
   "screenshots": {
     "eyebrow": "Latest store screens",
     "title": "The current launch set",
-    "description": "Every screenshot here comes from the newest synchronized store export for this locale.",
+    "description": "Every screenshot here comes from the newest synchronized App Store export for this locale.",
     "items": [
       {
         "title": "Control from anywhere",
-        "caption": "The launch hero frames Claude Code and Codex as phone-first companions for your Mac.",
+        "caption": "Claude Code and Codex riding shotgun, straight from your phone.",
         "variant": "sessions"
       },
       {
         "title": "Live session view",
-        "caption": "Follow active work, running states, and project paths without returning to the desk.",
+        "caption": "Watch what your agent is doing without walking back to the desk.",
         "variant": "stream"
       },
       {
         "title": "Project history",
-        "caption": "Past sessions stay organized by context so you can pick up where an agent left off.",
+        "caption": "Sessions stay grouped by project so you always know where you left off.",
         "variant": "history"
       },
       {
-        "title": "Fast command handoff",
-        "caption": "Send the next instruction from the device that is already in your hand.",
+        "title": "Send the next prompt",
+        "caption": "The device already in your hand fires the next command.",
         "variant": "composer"
       },
       {
         "title": "iPad workspace",
-        "caption": "The larger layout gives Claude, Codex, and settings more breathing room.",
+        "caption": "More room for Claude, Codex, and the project switcher side by side.",
         "variant": "sessions"
       },
       {
-        "title": "Tablet-size context",
-        "caption": "Use the extra space for longer outputs, project switching, and review.",
+        "title": "Long outputs, calmly",
+        "caption": "The larger layout makes long agent runs easy to scan and review.",
         "variant": "stream"
       },
       {
-        "title": "Connection clarity",
-        "caption": "Status indicators make it obvious when a Mac is reachable and a session is running.",
+        "title": "Connection at a glance",
+        "caption": "Local, remote, or offline — the status badge always tells the truth.",
         "variant": "pairing"
       },
       {
-        "title": "Agent switching",
-        "caption": "Keep Claude and Codex in the same remote control surface.",
+        "title": "Switch agents in a tap",
+        "caption": "Claude and Codex live in the same remote control surface.",
         "variant": "composer"
       },
       {
         "title": "Launch-ready flow",
-        "caption": "The latest synced iPad visual completes the current store media set.",
+        "caption": "The newest iPad visual rounds out the current store media set.",
         "variant": "history"
-      },
-      {
-        "title": "Complete media set",
-        "caption": "All available locale screenshots are now represented on the page.",
-        "variant": "sessions"
       }
     ]
   },

@@ -79,58 +79,53 @@
   },
   "screenshots": {
     "eyebrow": "Pantallas nuevas",
-    "title": "El set actual de tienda",
-    "description": "Cada imagen de esta sección viene de la última exportación de tienda sincronizada para este idioma.",
+    "title": "El set actual de la App Store",
+    "description": "Cada imagen viene de la última exportación de tienda sincronizada para este idioma.",
     "items": [
       {
-        "title": "Control desde cualquier lugar",
-        "caption": "La pantalla de lanzamiento presenta Claude Code y Codex como compañeros del Mac en el celular.",
+        "title": "Control desde cualquier lado",
+        "caption": "Claude Code y Codex copilotando, directo desde tu celular.",
         "variant": "sessions"
       },
       {
         "title": "Sesión en vivo",
-        "caption": "Sigue trabajo activo, estados de ejecución y rutas de proyecto sin volver al escritorio.",
+        "caption": "Mira qué está haciendo tu agente sin volver al escritorio.",
         "variant": "stream"
       },
       {
         "title": "Historial por proyecto",
-        "caption": "Las sesiones anteriores quedan ordenadas por contexto para retomar donde el agente se quedó.",
+        "caption": "Las sesiones quedan ordenadas por proyecto, listas para retomar.",
         "variant": "history"
       },
       {
-        "title": "Comando al vuelo",
-        "caption": "Manda la siguiente instrucción desde el dispositivo que ya tienes en la mano.",
+        "title": "Manda el próximo prompt",
+        "caption": "El dispositivo que ya tienes en la mano dispara el siguiente comando.",
         "variant": "composer"
       },
       {
         "title": "Workspace en iPad",
-        "caption": "El layout grande da más espacio a Claude, Codex y ajustes.",
+        "caption": "Más espacio para Claude, Codex y el selector de proyectos juntos.",
         "variant": "sessions"
       },
       {
-        "title": "Contexto en pantalla grande",
-        "caption": "Usa el espacio extra para salidas largas, cambio de proyecto y revisión.",
+        "title": "Salidas largas, con calma",
+        "caption": "El layout grande hace fácil revisar ejecuciones extensas.",
         "variant": "stream"
       },
       {
-        "title": "Conexión clara",
-        "caption": "Los indicadores dejan claro cuándo un Mac está disponible y una sesión está corriendo.",
+        "title": "Conexión a la vista",
+        "caption": "Local, remoto u offline: el indicador siempre dice la verdad.",
         "variant": "pairing"
       },
       {
-        "title": "Cambio de agente",
+        "title": "Cambia de agente al toque",
         "caption": "Claude y Codex viven en la misma superficie de control remoto.",
         "variant": "composer"
       },
       {
-        "title": "Flujo listo para lanzamiento",
-        "caption": "La última visual de iPad completa el set actual de medios de tienda.",
+        "title": "Listo para lanzamiento",
+        "caption": "La última visual de iPad cierra el set actual de medios de tienda.",
         "variant": "history"
-      },
-      {
-        "title": "Set completo",
-        "caption": "Todas las pantallas disponibles para este idioma ahora aparecen en la página.",
-        "variant": "sessions"
       }
     ]
   },

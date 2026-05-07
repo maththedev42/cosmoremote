@@ -79,57 +79,57 @@
   },
   "screenshots": {
     "eyebrow": "Telas mais recentes",
-    "title": "O conjunto atual de loja",
-    "description": "Todas as imagens abaixo vêm da exportação de loja mais recente sincronizada para este idioma.",
+    "title": "O conjunto atual da App Store",
+    "description": "Cada imagem aqui vem da exportação de loja mais recente sincronizada para este idioma.",
     "items": [
       {
-        "title": "Controle de qualquer lugar",
-        "caption": "A tela de lançamento coloca Claude Code e Codex como companheiros do Mac no celular.",
+        "title": "Controle de onde estiver",
+        "caption": "Claude Code e Codex de carona, direto do seu celular.",
         "variant": "sessions"
       },
       {
         "title": "Sessão ao vivo",
-        "caption": "Acompanhe trabalho ativo, estados de execução e caminhos de projeto sem voltar para a mesa.",
+        "caption": "Veja o que o agente está fazendo sem precisar voltar pra mesa.",
         "variant": "stream"
       },
       {
         "title": "Histórico por projeto",
-        "caption": "Sessões passadas ficam organizadas por contexto para você retomar de onde o agente parou.",
+        "caption": "As sessões ficam agrupadas por projeto pra você retomar de onde parou.",
         "variant": "history"
       },
       {
-        "title": "Envio rápido de comando",
-        "caption": "Mande a próxima instrução pelo dispositivo que já está na sua mão.",
+        "title": "Mande o próximo prompt",
+        "caption": "O aparelho que já está na sua mão dispara o próximo comando.",
         "variant": "composer"
       },
       {
         "title": "Fluxo completo no iPhone",
-        "caption": "A quinta tela brasileira fecha o conjunto atual de iPhone exportado pela loja.",
+        "caption": "A quinta tela brasileira fecha o set atual de iPhone exportado.",
         "variant": "pairing"
       },
       {
         "title": "Workspace no iPad",
-        "caption": "O layout maior dá mais espaço para Claude, Codex e ajustes.",
+        "caption": "Mais espaço pra Claude, Codex e o seletor de projetos lado a lado.",
         "variant": "sessions"
       },
       {
-        "title": "Contexto em tela grande",
-        "caption": "Use o espaço extra para saídas longas, troca de projeto e revisão.",
+        "title": "Saídas longas, com calma",
+        "caption": "O layout grande deixa execuções demoradas fáceis de revisar.",
         "variant": "stream"
       },
       {
-        "title": "Conexão clara",
-        "caption": "Os indicadores deixam evidente quando um Mac está alcançável e uma sessão está rodando.",
+        "title": "Conexão na cara",
+        "caption": "Local, remoto ou offline: o indicador sempre fala a verdade.",
         "variant": "pairing"
       },
       {
-        "title": "Troca de agente",
-        "caption": "Claude e Codex ficam no mesmo controle remoto.",
+        "title": "Troque de agente num toque",
+        "caption": "Claude e Codex moram no mesmo controle remoto.",
         "variant": "composer"
       },
       {
-        "title": "Conjunto completo",
-        "caption": "Todas as telas brasileiras disponíveis agora aparecem na página.",
+        "title": "Pronto pra lançar",
+        "caption": "A última tela de iPad fecha o set atual sincronizado da loja.",
         "variant": "history"
       }
     ]
