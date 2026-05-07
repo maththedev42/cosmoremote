@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CosmoRemote",
-    "description": "Tus agentes de código, por fin lejos del escritorio. Controla Claude Code y Codex desde el móvil, con streaming en vivo y relay remoto."
+    "description": "Controla Claude Code y Codex desde el celular. CosmoRemote llegará pronto a iPhone, iPad y Android."
   },
   "nav": {
     "brand": "CosmoRemote",
-    "tagline": "Tus agentes, en tu bolsillo.",
+    "tagline": "Tus agentes, al alcance.",
     "menuLabel": "Abrir menú",
-    "prelaunch": "Apple ya disponible",
+    "prelaunch": "Próximamente",
     "links": {
       "features": "Funciones",
       "screenshots": "Pantallas",
@@ -17,109 +17,144 @@
     }
   },
   "hero": {
-    "eyebrow": "Para devs en movimiento",
+    "eyebrow": "Para devs fuera del escritorio",
     "title": "CosmoRemote",
-    "subtitle": "Tus agentes de código, por fin lejos del escritorio",
-    "description": "Instálalo una vez, empareja por QR y mira a tus agentes trabajar en vivo — desde el sofá, el tren o el café del otro lado de la ciudad.",
-    "secondaryCta": "Ver las pantallas",
-    "note": "iPhone y iPad ya están disponibles. Android sigue marcado como Próximamente.",
-    "platforms": ["iPhone • Disponible", "iPad • Disponible", "Android • Próximamente"],
+    "subtitle": "Controla tu código desde cualquier lugar",
+    "description": "Conecta el celular al Mac que ejecuta Claude Code o Codex, sigue las sesiones en tiempo real y mantén cada proyecto cerca cuando la app se lance.",
+    "secondaryCta": "Ver las pantallas nuevas",
+    "note": "iPhone, iPad y Android siguen Próximamente. Sin botones falsos de App Store o Play Store hasta tener enlaces reales.",
+    "platforms": ["iPhone • Próximamente", "iPadOS • Próximamente", "Android celular • Próximamente"],
     "metrics": [
-      { "value": "1 comando", "label": "para instalar el bridge" },
-      { "value": "QR", "label": "un escaneo y ya estás dentro" },
-      { "value": "En vivo", "label": "streaming, cero polling" }
+      { "value": "1 comando", "label": "para conectar tu Mac" },
+      { "value": "QR", "label": "emparejamiento rápido con tu Mac" },
+      { "value": "20/día", "label": "mensajes en el plan gratis" }
     ]
   },
   "features": {
     "eyebrow": "Lo que te llevas",
-    "title": "Mantén el flow, estés donde estés",
-    "description": "Del emparejamiento local al relay remoto — cambias de contexto al vuelo y no pierdes ni un token del historial.",
+    "title": "Mantén Claude y Codex cerca",
+    "description": "CosmoRemote está pensado para devs que alternan entre agentes, proyectos y terminales sin quedarse pegados al Mac.",
     "items": [
       {
         "icon": "spark",
-        "title": "Un comando y listo",
-        "description": "Instala el bridge con brew, winget o un curl. Arrancas en segundos."
+        "title": "Conecta tu Mac rápido",
+        "description": "Instala una vez con brew, winget o curl y lanza el conector local cuando estés listo para trabajar."
       },
       {
         "icon": "stream",
-        "title": "Arranca solo y muestra el QR",
-        "description": "Detecta Claude Code y Codex, levanta el WebSocket local y pinta el QR directo en la terminal."
+        "title": "Encuentra tus agentes",
+        "description": "El comando de escritorio detecta Claude Code y Codex, inicia la conexión de sesión y muestra el QR en la terminal."
       },
       {
         "icon": "qr",
-        "title": "Empareja de un vistazo",
-        "description": "Escanea una vez — conectado, autenticado, listo."
+        "title": "Empareja con un escaneo",
+        "description": "Escanea el QR y conecta con el Mac de tu red mediante un flujo de emparejamiento autenticado."
       },
       {
         "icon": "code",
         "title": "Claude o Codex, tú eliges",
-        "description": "Elige la CLI por sesión. Cámbiala cuando quieras antes de enviar."
+        "description": "Elige la CLI por sesión para que cada proyecto use el agente correcto antes de mandar el prompt."
       },
       {
         "icon": "folder",
         "title": "Salta entre proyectos",
-        "description": "Guarda proyectos con nombres claros. Un toque y cambias de contexto."
+        "description": "Guarda rutas de trabajo con nombres claros y cambia de contexto sin volver a escribir paths."
       },
       {
         "icon": "stream",
-        "title": "Míralo pensar en tiempo real",
-        "description": "Salida token a token con auto-scroll. Cero polling, cero lag."
+        "title": "Sigue sesiones en vivo",
+        "description": "Salida en tiempo real, auto-scroll y bloques de código resaltados para revisar ejecuciones largas con menos fricción."
       },
       {
         "icon": "copy",
-        "title": "Llévate la respuesta de un toque",
-        "description": "Copia la sesión entera o un bloque de código al instante."
+        "title": "Copia la respuesta de un toque",
+        "description": "Copia una sesión completa o solo un bloque de código cuando necesites llevar la respuesta a tu flujo."
       },
       {
         "icon": "status",
-        "title": "Siempre sabes que estás conectado",
-        "description": "Indicadores claros para local, remoto y offline — sin adivinar."
+        "title": "Sabe si estás conectado",
+        "description": "Indicadores claros de local, remoto y offline te orientan antes de enviar algo importante."
       }
     ]
   },
   "screenshots": {
-    "eyebrow": "Pantallas",
-    "title": "Míralo en movimiento",
-    "description": "Un recorrido rápido: streaming en vivo, tu línea de sesiones y el handshake por QR.",
+    "eyebrow": "Pantallas nuevas",
+    "title": "El set actual de tienda",
+    "description": "Cada imagen de esta sección viene de la última exportación de tienda sincronizada para este idioma.",
     "items": [
       {
-        "title": "Streaming en vivo",
-        "caption": "Salida token a token con estado de conexión y ruta del proyecto.",
-        "variant": "stream"
-      },
-      {
-        "title": "Lista de sesiones",
-        "caption": "Salta entre sesiones activas, remotas y offline en una sola vista.",
+        "title": "Control desde cualquier lugar",
+        "caption": "La pantalla de lanzamiento presenta Claude Code y Codex como compañeros del Mac en el celular.",
         "variant": "sessions"
       },
       {
-        "title": "Emparejamiento QR",
-        "caption": "Conexión local rápida con intercambio de token cifrado.",
+        "title": "Sesión en vivo",
+        "caption": "Sigue trabajo activo, estados de ejecución y rutas de proyecto sin volver al escritorio.",
+        "variant": "stream"
+      },
+      {
+        "title": "Historial por proyecto",
+        "caption": "Las sesiones anteriores quedan ordenadas por contexto para retomar donde el agente se quedó.",
+        "variant": "history"
+      },
+      {
+        "title": "Comando al vuelo",
+        "caption": "Manda la siguiente instrucción desde el dispositivo que ya tienes en la mano.",
+        "variant": "composer"
+      },
+      {
+        "title": "Workspace en iPad",
+        "caption": "El layout grande da más espacio a Claude, Codex y ajustes.",
+        "variant": "sessions"
+      },
+      {
+        "title": "Contexto en pantalla grande",
+        "caption": "Usa el espacio extra para salidas largas, cambio de proyecto y revisión.",
+        "variant": "stream"
+      },
+      {
+        "title": "Conexión clara",
+        "caption": "Los indicadores dejan claro cuándo un Mac está disponible y una sesión está corriendo.",
         "variant": "pairing"
+      },
+      {
+        "title": "Cambio de agente",
+        "caption": "Claude y Codex viven en la misma superficie de control remoto.",
+        "variant": "composer"
+      },
+      {
+        "title": "Flujo listo para lanzamiento",
+        "caption": "La última visual de iPad completa el set actual de medios de tienda.",
+        "variant": "history"
+      },
+      {
+        "title": "Set completo",
+        "caption": "Todas las pantallas disponibles para este idioma ahora aparecen en la página.",
+        "variant": "sessions"
       }
     ]
   },
   "pricing": {
     "eyebrow": "Precios",
-    "title": "Empieza gratis. Pasa a Pro cuando quieras más.",
-    "description": "Precio local por región con la primera semana gratis en Pro. Gratis cubre el día a día y Pro te quita el techo.",
+    "title": "Empieza gratis. Pasa a Pro cuando necesites más agentes.",
+    "description": "Los precios de StoreKit están sincronizados para el lanzamiento: Gratis cubre el flujo remoto diario y Pro desbloquea trabajo en paralelo cuando se abran las compras.",
     "monthlyLabel": "Pro Mensual",
     "yearlyLabel": "Pro Anual",
-    "monthlyValue": 2.99,
-    "yearlyValue": 34.99,
+    "monthlyValue": 4.99,
+    "yearlyValue": 39.99,
     "freeLabel": "Gratis",
-    "freePrice": "0 €",
-    "trialLabel": "Gratis la primera semana",
+    "freePrice": "US$0",
+    "trialLabel": "Compras disponibles al lanzamiento",
     "cadenceMonthly": "/mes",
     "cadenceYearly": "/año",
     "cadenceFree": "para siempre",
     "saveTemplate": "Ahorra {percent}%",
     "toggleMonthly": "Mensual",
     "toggleYearly": "Anual",
-    "ctaFree": "Empezar gratis",
-    "ctaPro": "Obtener Pro",
-    "monthlyDescription": "Empieza con una semana gratis y luego sigue mes a mes. Cancela cuando quieras.",
-    "yearlyDescription": "Empieza con una semana gratis y luego mantén todas las funciones Pro durante un año entero al mejor precio.",
+    "ctaFree": "Ver estado de lanzamiento",
+    "ctaPro": "Ver estado de lanzamiento",
+    "monthlyDescription": "Una opción Pro flexible para sesiones paralelas, mensajes ilimitados por día y varios Macs.",
+    "yearlyDescription": "El mejor valor para devs que esperan usar CosmoRemote dentro de su flujo diario con agentes.",
     "yearlyHighlight": "Mejor precio",
     "yearlyComparisonTemplate": "{monthlyTotal} si pagaras mes a mes vs {yearly} en el plan anual.",
     "cards": {
@@ -133,53 +168,52 @@
       ],
       "premium": [
         "Sesiones en paralelo",
-        "Mensajes ilimitados — sin límite diario",
+        "Mensajes ilimitados por día",
         "Varios Macs",
-        "Restaurar compras",
-        "Soporte prioritario"
+        "Opción Pro mensual",
+        "Opción Pro anual",
+        "Restaurar compras"
       ]
     }
   },
   "downloads": {
     "eyebrow": "Descargas",
-    "title": "Estado de lanzamiento por plataforma",
-    "description": "iPhone y iPad ya están disponibles. Android sigue marcado como Próximamente hasta que su lanzamiento en tienda esté listo.",
-    "comingSoon": "Despliegue en curso",
+    "title": "Estado de lanzamiento en tiendas",
+    "description": "CosmoRemote aún no se ha lanzado. iPhone, iPad y Android siguen marcados como Próximamente hasta que existan URLs reales de tienda.",
+    "comingSoon": "Estado de pre-lanzamiento",
     "cards": [
       {
         "platform": "iphone",
         "title": "iPhone",
-        "status": "Ya disponible",
-        "available": true,
-        "note": "Control remoto, streaming en vivo e historial completo — en la palma de la mano."
+        "status": "Próximamente",
+        "note": "Control remoto, streaming en vivo e historial de sesiones se están preparando para el lanzamiento en iOS."
       },
       {
         "platform": "ipad",
-        "title": "iPad",
-        "status": "Ya disponible",
-        "available": true,
-        "note": "Más espacio para sesiones, cambio de proyecto y revisión de salida."
+        "title": "iPadOS",
+        "status": "Próximamente",
+        "note": "El layout de iPad dará más espacio a sesiones, cambio de proyecto y revisión de salida."
       },
       {
         "platform": "android",
-        "title": "Android",
+        "title": "Android celular",
         "status": "Próximamente",
-        "note": "El mismo bridge local, el mismo relay — continuidad entre dispositivos sin rollos."
+        "note": "Android seguirá el mismo modelo de conexión local, acceso remoto seguro e historial cuando la build de tienda esté lista."
       }
     ]
   },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Respuestas directas antes del lanzamiento",
-    "description": "Sin métricas infladas ni enlaces de tienda inventados. Solo los detalles que importan.",
+    "description": "Sin métricas infladas, enlaces falsos de tienda ni reseñas inventadas.",
     "questions": [
       {
-        "question": "¿CosmoRemote ya está disponible?",
-        "answer": "iPhone y iPad ya están disponibles. Android sigue marcado como Próximamente hasta que su lanzamiento en tienda esté listo."
+        "question": "¿CosmoRemote ya se lanzó?",
+        "answer": "Todavía no. iPhone, iPad y Android están marcados como Próximamente hasta que existan enlaces reales de App Store y Play Store."
       },
       {
-        "question": "¿Cómo funciona el emparejamiento local?",
-        "answer": "Ejecuta cosmoremote start, escanea el QR y la app encuentra tu Mac en la misma red Wi-Fi. La conexión es instantánea."
+        "question": "¿Cómo funcionará el emparejamiento local?",
+        "answer": "Ejecuta cosmoremote start, escanea el QR y la app se conecta al Mac que está ejecutando tu sesión de Claude Code o Codex."
       },
       {
         "question": "¿Puedo alternar entre Claude Code y Codex?",
@@ -187,11 +221,11 @@
       },
       {
         "question": "¿Qué incluye el plan gratis?",
-        "answer": "Todo lo que necesitas día a día: instalación, emparejamiento, streaming, historial completo y 20 mensajes por día."
+        "answer": "Instalación, emparejamiento QR, selección de CLI y ruta, streaming, historial, acceso offline y 20 mensajes por día."
       },
       {
         "question": "¿Qué desbloquea Pro?",
-        "answer": "Sesiones en paralelo, mensajes ilimitados (sin límite diario), varios Macs y restaurar compras."
+        "answer": "Sesiones en paralelo, mensajes ilimitados por día, varios Macs y restauración de compras."
       },
       {
         "question": "¿Por qué elegir el plan anual?",
@@ -202,6 +236,8 @@
   "footer": {
     "brand": "CosmoRemote",
     "tagline": "Agentes de código que te acompañan a todas partes.",
+    "sectionsLabel": "Secciones",
+    "legalLabel": "Legal",
     "links": {
       "features": "Funciones",
       "screenshots": "Pantallas",
@@ -211,7 +247,7 @@
     },
     "legal": {
       "rights": "© CosmoRemote. Todos los derechos reservados.",
-      "honesty": "Estado real del lanzamiento. Sin números ni reseñas inventadas.",
+      "honesty": "Estado real de pre-lanzamiento. Sin instalaciones, notas ni enlaces de tienda inventados.",
       "terms": "Términos de Servicio",
       "privacy": "Política de Privacidad"
     }

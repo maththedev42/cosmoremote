@@ -9,6 +9,15 @@ export type ScreenshotAsset = {
   device: ScreenshotDevice;
 };
 
+const screenshotDimensions = {
+  iphone: { width: 1284, height: 2778 },
+  ipad: { width: 2048, height: 2732 },
+} satisfies Record<ScreenshotDevice, { width: number; height: number }>;
+
+export function getScreenshotDimensions(asset: Pick<ScreenshotAsset, "device">) {
+  return screenshotDimensions[asset.device];
+}
+
 export function getScreenshotsForLocale(locale: Locale) {
   const shots = getLocaleScreenshots(locale);
   return {
@@ -27,7 +36,5 @@ export function getHeroScreenshots(locale: Locale) {
 
 export function getGalleryScreenshots(locale: Locale) {
   const shots = getScreenshotsForLocale(locale);
-  const ordered = [shots.iphone[0], shots.iphone[1], shots.ipad[0]].filter(Boolean);
-
-  return ordered.slice(0, 2);
+  return [...shots.iphone, ...shots.ipad];
 }

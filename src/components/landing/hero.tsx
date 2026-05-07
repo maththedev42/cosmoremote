@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Smartphone } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { getHeroScreenshots } from "@/lib/screenshots";
+import { getHeroScreenshots, getScreenshotDimensions } from "@/lib/screenshots";
 import type { Locale } from "@/lib/i18n";
 
 type HeroProps = {
@@ -98,8 +98,8 @@ export function Hero({ locale, content }: HeroProps) {
                 <Image
                   src={primary.src}
                   alt={primary.alt}
-                  width={1400}
-                  height={2800}
+                  width={getScreenshotDimensions(primary).width}
+                  height={getScreenshotDimensions(primary).height}
                   priority
                   className="h-auto w-full rounded-[1.15rem]"
                   sizes="(max-width: 768px) 100vw, 46vw"
@@ -111,8 +111,8 @@ export function Hero({ locale, content }: HeroProps) {
                   <Image
                     src={secondary.src}
                     alt={secondary.alt}
-                    width={1800}
-                    height={1200}
+                    width={getScreenshotDimensions(secondary).width}
+                    height={getScreenshotDimensions(secondary).height}
                     className="h-auto w-full rounded-2xl"
                     sizes="(max-width: 1024px) 40vw, 22vw"
                   />

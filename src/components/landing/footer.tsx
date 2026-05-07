@@ -4,6 +4,8 @@ import type { Locale } from "@/lib/i18n";
 type FooterContent = {
   brand: string;
   tagline: string;
+  sectionsLabel: string;
+  legalLabel: string;
   links: {
     features: string;
     screenshots: string;
@@ -46,7 +48,9 @@ export function Footer({
 
         <div className="grid grid-cols-2 gap-8">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">Links</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">
+              {content.sectionsLabel}
+            </p>
             <ul className="mt-4 space-y-3">
               {links.map(([id, label]) => (
                 <li key={id}>
@@ -59,7 +63,9 @@ export function Footer({
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">Legal</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">
+              {content.legalLabel}
+            </p>
             <p className="mt-4 text-sm text-white/78">{content.legal.rights}</p>
             <p className="mt-2 text-sm text-white/62">{content.legal.honesty}</p>
             <div className="mt-4 flex items-center gap-4 text-sm text-white/72">

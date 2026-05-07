@@ -38,18 +38,15 @@ export function formatLandingCurrency(value: number, currency: string, locale: L
   }).format(value);
 }
 
-export function getLandingPricing(locale: Locale, fallback: PricingContentFallback) {
-  const localePricing =
-    landingData.pricing?.byLocale?.[locale] ??
-    landingData.pricing?.byLocale?.en ??
-    null;
+export function getLandingPricing(_locale: Locale, fallback: PricingContentFallback) {
+  const root = landingData.pricing;
 
   return {
-    source: landingData.pricing?.source ?? "project",
-    currency: localePricing?.currency ?? "USD",
-    monthly: localePricing?.monthly ?? fallback.monthlyValue,
-    yearly: localePricing?.yearly ?? fallback.yearlyValue,
-    lifetime: localePricing?.lifetime ?? null,
+    source: root?.source ?? "project",
+    currency: root?.currency ?? "USD",
+    monthly: root?.monthly ?? fallback.monthlyValue,
+    yearly: root?.yearly ?? fallback.yearlyValue,
+    lifetime: root?.lifetime ?? null,
     freePrice: fallback.freePrice,
   };
 }

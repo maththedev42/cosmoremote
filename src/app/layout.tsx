@@ -1,12 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-montserrat",
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cosmoremote.app"),
@@ -14,10 +7,10 @@ export const metadata: Metadata = {
     default: "CosmoRemote",
     template: "%s | CosmoRemote",
   },
-  description: "Seus agentes, ao seu alcance!",
+  description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
   openGraph: {
     title: "CosmoRemote",
-    description: "Seus agentes, ao seu alcance!",
+    description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
     type: "website",
     siteName: "CosmoRemote",
     url: "/",
@@ -25,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CosmoRemote",
-    description: "Seus agentes, ao seu alcance!",
+    description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
   },
 };
 
@@ -36,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${montserrat.variable} antialiased`}>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

@@ -30,7 +30,7 @@
 
   --warning: #f1c40f;
   --shadow-card: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --font-sans: var(--font-montserrat), "Montserrat", "Segoe UI", sans-serif;
+  --font-sans: "Montserrat", "Segoe UI", sans-serif;
 }
 
 @theme inline {

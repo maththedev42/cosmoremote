@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { SectionShell } from "@/components/landing/section-shell";
-import { getGalleryScreenshots } from "@/lib/screenshots";
+import { getGalleryScreenshots, getScreenshotDimensions } from "@/lib/screenshots";
 import type { Locale } from "@/lib/i18n";
 
 export function ScreenshotsGallery({
@@ -25,7 +25,7 @@ export function ScreenshotsGallery({
   }
 
   const cards = shots.map((shot, index) => {
-    const copy = content.items[index] ?? content.items[0];
+    const copy = content.items[index % Math.max(content.items.length, 1)];
 
     return {
       ...shot,
@@ -42,29 +42,29 @@ export function ScreenshotsGallery({
       title={content.title}
       description={content.description}
     >
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {cards.map((card, index) => (
           <motion.figure
             key={card.key}
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
-            transition={{ delay: 0.08 * index, duration: 0.4 }}
+            transition={{ delay: 0.06 * index, duration: 0.4 }}
             className="overflow-hidden rounded-3xl border border-white/14 bg-white/8 shadow-[var(--shadow-card)]"
           >
             <div className="border-b border-white/10 p-2">
               <Image
                 src={card.src}
                 alt={card.alt}
-                width={1800}
-                height={2200}
+                width={getScreenshotDimensions(card).width}
+                height={getScreenshotDimensions(card).height}
                 className="h-auto w-full rounded-2xl"
-                sizes="(max-width: 640px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
               />
             </div>
             <figcaption className="p-4 sm:p-5">
-              <h3 className="text-xl font-semibold text-white">{card.title}</h3>
-              <p className="mt-2 max-w-prose text-base leading-7 text-white/72">{card.caption}</p>
+              <h3 className="text-base font-semibold text-white sm:text-lg">{card.title}</h3>
+              <p className="mt-2 max-w-prose text-sm leading-6 text-white/72">{card.caption}</p>
             </figcaption>
           </motion.figure>
         ))}
