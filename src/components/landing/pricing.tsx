@@ -50,6 +50,7 @@ export function Pricing({ locale, content }: { locale: Locale; content: PricingC
     pricing.monthly !== null ? formatLandingCurrency(pricing.monthly, pricing.currency, locale) : content.freePrice;
   const yearlyPriceLabel =
     pricing.yearly !== null ? formatLandingCurrency(pricing.yearly, pricing.currency, locale) : content.freePrice;
+  const freePriceLabel = formatLandingCurrency(0, pricing.currency, locale);
   const yearlyComparison =
     pricing.monthly !== null && pricing.yearly !== null
       ? content.yearlyComparisonTemplate
@@ -68,7 +69,7 @@ export function Pricing({ locale, content }: { locale: Locale; content: PricingC
         <article className="rounded-3xl border border-white/14 bg-white/8 p-6 shadow-[var(--shadow-card)]">
           <p className="text-lg font-semibold text-white">{content.freeLabel}</p>
           <div className="mt-4 flex items-end gap-2">
-            <p className="text-4xl font-semibold text-white">{content.freePrice}</p>
+            <p className="text-4xl font-semibold text-white">{freePriceLabel}</p>
             <span className="pb-1 text-sm text-white/70">{content.cadenceFree}</span>
           </div>
           <ul className="mt-5 space-y-3">

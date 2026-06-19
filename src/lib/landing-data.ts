@@ -12,10 +12,14 @@ type ScreenshotDevice = "iphone" | "ipad" | "macos" | "android-phone" | "android
 type ScreenshotEntry = {
   src: string;
   alt: string;
+  width?: number;
+  height?: number;
+  hash?: string;
 };
 
 type ScreenshotMap = Record<ScreenshotDevice, ScreenshotEntry[]>;
 type ReadonlyScreenshotMap = Record<ScreenshotDevice, readonly ScreenshotEntry[]>;
+type LandingCurrency = "BRL" | "EUR" | "USD";
 
 function regionForLocale(locale: Locale) {
   if (locale === "pt-BR") return "pt-BR";
@@ -31,6 +35,23 @@ const EMPTY_SCREENSHOTS: ScreenshotMap = {
   "android-tablet": [],
 };
 
+const DISPLAY_CURRENCY_BY_LOCALE: Record<Locale, LandingCurrency> = {
+  en: "USD",
+  "pt-BR": "BRL",
+  es: "EUR",
+};
+
+const FALLBACK_BRL_RATES: Record<LandingCurrency, number> = {
+  BRL: 1,
+  USD: 0.2035,
+  EUR: 0.17303,
+};
+
+const FALLBACK_LOCALIZED_PRICES: Partial<Record<LandingCurrency, { monthly?: number; yearly?: number; lifetime?: number | null }>> = {
+  USD: { monthly: 2.99, yearly: 29.99 },
+  EUR: { monthly: 2.99, yearly: 34.99 },
+};
+
 export function formatLandingCurrency(value: number, currency: string, locale: Locale) {
   return new Intl.NumberFormat(regionForLocale(locale), {
     style: "currency",
@@ -38,15 +59,33 @@ export function formatLandingCurrency(value: number, currency: string, locale: L
   }).format(value);
 }
 
-export function getLandingPricing(_locale: Locale, fallback: PricingContentFallback) {
+function convertPrice(value: number | null, rate: number) {
+  if (value === null) return null;
+  return Number((value * rate).toFixed(2));
+}
+
+export function getLandingPricing(locale: Locale, fallback: PricingContentFallback) {
   const root = landingData.pricing;
+  const baseCurrency = (root?.currency ?? "BRL") as LandingCurrency;
+  const displayCurrency = DISPLAY_CURRENCY_BY_LOCALE[locale] ?? baseCurrency;
+  const localizedPrices = {
+    ...FALLBACK_LOCALIZED_PRICES,
+    ...(root?.localizedPrices ?? {}),
+  } as Partial<Record<LandingCurrency, { monthly?: number; yearly?: number; lifetime?: number | null }>>;
+  const explicitPrices = localizedPrices[displayCurrency];
+  const rates = { ...FALLBACK_BRL_RATES, ...(root?.rates ?? {}) } as Record<LandingCurrency, number>;
+  const rate = displayCurrency === baseCurrency ? 1 : rates[displayCurrency] ?? 1;
+  const monthly = root?.monthly ?? fallback.monthlyValue;
+  const yearly = root?.yearly ?? fallback.yearlyValue;
+  const lifetime = root?.lifetime ?? null;
 
   return {
     source: root?.source ?? "project",
-    currency: root?.currency ?? "USD",
-    monthly: root?.monthly ?? fallback.monthlyValue,
-    yearly: root?.yearly ?? fallback.yearlyValue,
-    lifetime: root?.lifetime ?? null,
+    baseCurrency,
+    currency: displayCurrency,
+    monthly: explicitPrices?.monthly ?? convertPrice(monthly, rate),
+    yearly: explicitPrices?.yearly ?? convertPrice(yearly, rate),
+    lifetime: explicitPrices?.lifetime ?? convertPrice(lifetime, rate),
     freePrice: fallback.freePrice,
   };
 }

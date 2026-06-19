@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { CheckCircle2, Smartphone } from "lucide-react";
+import { CheckCircle2, Mail, Smartphone } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { PUBLIC_CONTACT_MAILTO } from "@/lib/contact";
 import { getHeroScreenshots, getScreenshotDimensions } from "@/lib/screenshots";
 import type { Locale } from "@/lib/i18n";
 
@@ -15,6 +16,7 @@ type HeroProps = {
     title: string;
     subtitle: string;
     description: string;
+    contactCta: string;
     secondaryCta: string;
     note: string;
     platforms: string[];
@@ -48,6 +50,10 @@ export function Hero({ locale, content }: HeroProps) {
           <p className="mt-5 max-w-prose text-base leading-7 text-white/78 md:text-lg">{content.description}</p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <Button href={PUBLIC_CONTACT_MAILTO} className="h-12 w-full px-5 text-base sm:w-auto">
+              <Mail className="size-4" />
+              {content.contactCta}
+            </Button>
             <Button href="#screenshots" variant="outline" className="h-12 w-full px-5 text-base sm:w-auto">
               {content.secondaryCta}
             </Button>

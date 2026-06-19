@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PUBLIC_CONTACT_EMAIL, PUBLIC_CONTACT_MAILTO } from "@/lib/contact";
 import type { Locale } from "@/lib/i18n";
 
 type FooterContent = {
@@ -12,6 +13,9 @@ type FooterContent = {
     pricing: string;
     downloads: string;
     faq: string;
+  };
+  contact: {
+    label: string;
   };
   legal: {
     rights: string;
@@ -68,6 +72,12 @@ export function Footer({
             </p>
             <p className="mt-4 text-sm text-white/78">{content.legal.rights}</p>
             <p className="mt-2 text-sm text-white/62">{content.legal.honesty}</p>
+            <a
+              href={PUBLIC_CONTACT_MAILTO}
+              className="mt-4 block text-sm text-white/78 underline underline-offset-4 transition hover:text-white"
+            >
+              {content.contact.label}: {PUBLIC_CONTACT_EMAIL}
+            </a>
             <div className="mt-4 flex items-center gap-4 text-sm text-white/72">
               <Link href={locale === "en" ? "/terms" : `/${locale}/terms`} className="underline underline-offset-4 hover:text-white transition">
                 {content.legal.terms}
