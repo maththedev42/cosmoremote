@@ -4,16 +4,15 @@ import { getCanonicalPath } from "@/lib/i18n";
 
 export function generateLandingMetadata(locale: Locale, dict: LandingDictionary): Metadata {
   const pageTitle = dict.meta.title.trim();
-  const title = pageTitle.toLowerCase() === "cosmoremote"
-    ? { absolute: pageTitle }
-    : pageTitle;
+  const titleTemplate = `${pageTitle} | CosmoRemote`;
 
   return {
-    title,
+    title: { absolute: titleTemplate },
     description: dict.meta.description,
     alternates: {
       canonical: getCanonicalPath(locale),
       languages: {
+        "x-default": "/",
         en: "/",
         "pt-BR": "/pt-BR",
         es: "/es",

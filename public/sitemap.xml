@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cosmoremote.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/pt-BR/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/privacy/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/es/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/privacy/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/pt-BR/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/privacy/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/terms/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/es/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/terms/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cosmoremote.com/pt-BR/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cosmoremote.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://cosmoremote.com/es/terms/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://cosmoremote.com/pt-BR/terms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cosmoremote.com/terms/"/>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

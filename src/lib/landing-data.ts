@@ -12,9 +12,6 @@ type ScreenshotDevice = "iphone" | "ipad" | "macos" | "android-phone" | "android
 type ScreenshotEntry = {
   src: string;
   alt: string;
-  width?: number;
-  height?: number;
-  hash?: string;
 };
 
 type ScreenshotMap = Record<ScreenshotDevice, ScreenshotEntry[]>;

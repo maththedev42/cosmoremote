@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "CosmoRemote",
+    "title": "Gerencie seu Codex e Claude pelo celular",
     "description": "Gerencie seu Codex e Claude pelo celular. CosmoRemote já está disponível na App Store para iPhone e iPad. Android em breve."
   },
   "nav": {
@@ -17,13 +17,13 @@
     }
   },
   "hero": {
-    "eyebrow": "Para devs fora da mesa",
+    "eyebrow": "Seu agente terminou. Você não estava na sua mesa.",
     "title": "CosmoRemote",
-    "subtitle": "Gerencie seu Codex e Claude",
-    "description": "Conecte o celular ao Mac que roda Claude Code ou Codex, acompanhe sessões em tempo real e mantenha cada projeto por perto quando o app lançar.",
+    "subtitle": "Continue de onde seu agente parou",
+    "description": "O Claude Code terminou um refactor há 20 minutos e você estava longe da mesa. O CosmoRemote coloca cada sessão (Claude Code, Codex, Cursor ou terminal) a um toque no seu celular, para você nunca perder o fio.",
     "contactCta": "Fale com a gente",
     "secondaryCta": "Ver as telas mais recentes",
-    "note": "iPhone e iPad já estão na App Store. Android continua Em breve — nada de botão falso da Play Store antes do link real.",
+    "note": "iPhone e iPad já estão na App Store. Android continua Em breve - nada de botão falso da Play Store antes do link real.",
     "platforms": [
       "iPhone • Disponível",
       "iPadOS • Disponível",
@@ -39,15 +39,15 @@
         "label": "pareamento rápido com o Mac"
       },
       {
-        "value": "20/dia",
-        "label": "mensagens no plano grátis"
+        "value": "Grátis",
+        "label": "sem limite diário de mensagens"
       }
     ]
   },
   "features": {
     "eyebrow": "O que você ganha",
     "title": "Toda a sua frota de agentes, no seu bolso",
-    "description": "O CosmoRemote mantém cada sessão de Claude, Codex, Cursor e Terminal — em todos os seus computadores — a um toque de distância, onde quer que você esteja.",
+    "description": "O CosmoRemote mantém cada sessão de Claude, Codex, Cursor e Terminal em todos os seus computadores a um toque, onde você estiver.",
     "items": [
       {
         "icon": "stream",
@@ -57,7 +57,7 @@
       {
         "icon": "qr",
         "title": "Conecte com um escaneamento",
-        "description": "Inicie o conector no seu Mac, escaneie o QR e pronto — conectado por um relay seguro, em casa ou onde estiver."
+        "description": "Inicie o conector no seu Mac, escaneie o QR e pronto - conectado por um relay seguro, em casa ou onde estiver."
       },
       {
         "icon": "code",
@@ -66,13 +66,13 @@
       },
       {
         "icon": "spark",
-        "title": "Execute sessões em paralelo",
-        "description": "Abra várias sessões ao mesmo tempo e alterne entre elas sem perder o contexto."
+        "title": "Execute uma segunda sessão em paralelo (Pro)",
+        "description": "Inicie uma sessão no seu Mac mini e outra no seu MacBook, tudo no mesmo app. Sessões paralelas exigem o CosmoRemote Pro."
       },
       {
         "icon": "folder",
-        "title": "Conecte todos os seus computadores",
-        "description": "Pareie vários Macs e alterne entre eles — toda a sua frota em um só app."
+        "title": "Conecte seu Mac",
+        "description": "Pareie seu Mac e acesse qualquer sessão. Adicione mais Macs ao assinar o Pro."
       },
       {
         "icon": "status",
@@ -83,6 +83,11 @@
         "icon": "copy",
         "title": "Copie qualquer saída",
         "description": "Copie uma sessão inteira ou um único bloco de código direto para o seu fluxo."
+      },
+      {
+        "icon": "status",
+        "title": "Saiba o estado da conexão",
+        "description": "Indicadores de local, remoto e offline mantêm você orientado antes de enviar o próximo prompt."
       }
     ]
   },
@@ -145,8 +150,8 @@
   },
   "pricing": {
     "eyebrow": "Planos",
-    "title": "Comece grátis. Vá de Pro quando precisar de mais agentes.",
-    "description": "Os preços estão sincronizados pelo CosmoHQ: o Grátis cobre o fluxo remoto diário, e o Pro libera trabalho em paralelo no iPhone e iPad.",
+    "title": "Comece grátis. Vá para o Pro quando precisar de mais Macs e sessões paralelas.",
+    "description": "O Grátis inclui mensagens ilimitadas, 1 Mac, 1 sessão por vez e 3 execuções locais de Tests por dia. O Pro libera múltiplos Macs, sessões paralelas, Tests remotos e notificações push.",
     "monthlyLabel": "Pro Mensal",
     "yearlyLabel": "Pro Anual",
     "monthlyValue": 19.9,
@@ -162,8 +167,8 @@
     "toggleYearly": "Anual",
     "ctaFree": "Baixar CosmoRemote",
     "ctaPro": "Baixar CosmoRemote",
-    "monthlyDescription": "Uma opção Pro flexível para sessões paralelas, mensagens ilimitadas por dia e múltiplos Macs.",
-    "yearlyDescription": "O melhor custo-benefício para devs que esperam usar o CosmoRemote no fluxo diário com agentes.",
+    "monthlyDescription": "Múltiplos Macs, sessões paralelas, Tests remotos e notificações push, com cobrança mensal.",
+    "yearlyDescription": "Múltiplos Macs, sessões paralelas, Tests remotos e notificações push, com cobrança anual pelo melhor preço.",
     "yearlyHighlight": "Melhor custo-benefício",
     "yearlyComparisonTemplate": "{monthlyTotal} se pagasse mensal vs {yearly} no plano anual.",
     "cards": {
@@ -173,12 +178,13 @@
         "Seletor de CLI + diretório",
         "Streaming em tempo real",
         "Histórico de sessão offline",
-        "20 mensagens por dia"
+        "Mensagens ilimitadas por dia"
       ],
       "premium": [
-        "Sessões em paralelo",
-        "Mensagens ilimitadas por dia",
         "Múltiplos Macs",
+        "Sessões paralelas",
+        "Execuções remotas de Tests",
+        "Notificações push",
         "Opção Pro mensal",
         "Opção Pro anual",
         "Restaurar compras"
@@ -195,7 +201,7 @@
         "platform": "iphone",
         "title": "iPhone",
         "status": "Disponível",
-        "note": "Controle remoto, streaming ao vivo e histórico de sessões — já disponíveis na App Store.",
+        "note": "Controle remoto, streaming ao vivo e histórico de sessões - já disponíveis na App Store.",
         "available": true,
         "href": "https://apps.apple.com/br/app/cosmoremote/id6761442464",
         "cta": "Abrir na App Store"
@@ -224,7 +230,7 @@
     "questions": [
       {
         "question": "O CosmoRemote já lançou?",
-        "answer": "iPhone e iPad já estão na App Store. Android continua Em breve — vamos atualizar assim que a build da Play Store ficar pronta."
+        "answer": "iPhone e iPad já estão na App Store. Android continua Em breve - vamos atualizar assim que a build da Play Store ficar pronta."
       },
       {
         "question": "Como vai funcionar o pareamento local?",
@@ -236,11 +242,11 @@
       },
       {
         "question": "O que entra no plano grátis?",
-        "answer": "Instalação, pareamento por QR, seleção de CLI e diretório, streaming, histórico, acesso offline e 20 mensagens por dia."
+        "answer": "Instalação, pareamento por QR, seleção de CLI e diretório, streaming, histórico, acesso offline, 1 Mac, 1 sessão por vez e mensagens ilimitadas por dia."
       },
       {
         "question": "O que o Pro libera?",
-        "answer": "Sessões em paralelo, mensagens ilimitadas por dia, múltiplos Macs e restauração de compras."
+        "answer": "Múltiplos Macs, sessões paralelas, execuções remotas de Tests, notificações push e restauração de compras."
       },
       {
         "question": "Por que escolher o anual?",
