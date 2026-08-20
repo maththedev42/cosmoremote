@@ -12,6 +12,9 @@ type ScreenshotDevice = "iphone" | "ipad" | "macos" | "android-phone" | "android
 type ScreenshotEntry = {
   src: string;
   alt: string;
+  width?: number;
+  height?: number;
+  hash?: string;
 };
 
 type ScreenshotMap = Record<ScreenshotDevice, ScreenshotEntry[]>;
@@ -45,8 +48,8 @@ const FALLBACK_BRL_RATES: Record<LandingCurrency, number> = {
 };
 
 const FALLBACK_LOCALIZED_PRICES: Partial<Record<LandingCurrency, { monthly?: number; yearly?: number; lifetime?: number | null }>> = {
-  USD: { monthly: 2.99, yearly: 29.99 },
-  EUR: { monthly: 2.99, yearly: 34.99 },
+  USD: { monthly: 4.99, yearly: 29.99 },
+  EUR: { monthly: 4.99, yearly: 29.99 },
 };
 
 export function formatLandingCurrency(value: number, currency: string, locale: Locale) {

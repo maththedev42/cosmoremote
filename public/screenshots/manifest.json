@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T16:51:58.702Z",
+  "generatedAt": "2026-06-19T18:30:00.000Z",
   "pricing": {
     "source": "project",
     "currency": "BRL",
@@ -39,126 +39,370 @@
           "width": 1284,
           "height": 2778,
           "hash": "5a156efd9d28",
-          "alt": "App Store iPhone image 1"
+          "alt": "CosmoRemote iPhone screenshot 1"
         },
         {
           "src": "/screenshots/en/iphone-2-daf037ef0126.png",
           "width": 1284,
           "height": 2778,
           "hash": "daf037ef0126",
-          "alt": "App Store iPhone image 2"
+          "alt": "CosmoRemote iPhone screenshot 2"
         },
         {
           "src": "/screenshots/en/iphone-3-685e89fc3e27.png",
           "width": 1284,
           "height": 2778,
           "hash": "685e89fc3e27",
-          "alt": "App Store iPhone image 3"
+          "alt": "CosmoRemote iPhone screenshot 3"
         },
         {
           "src": "/screenshots/en/iphone-4-11b3c00fd40b.png",
           "width": 1284,
           "height": 2778,
           "hash": "11b3c00fd40b",
-          "alt": "App Store iPhone image 4"
+          "alt": "CosmoRemote iPhone screenshot 4"
         },
         {
           "src": "/screenshots/en/iphone-5-f0158c3d63ad.png",
           "width": 1284,
           "height": 2778,
           "hash": "f0158c3d63ad",
-          "alt": "App Store iPhone image 5"
+          "alt": "CosmoRemote iPhone screenshot 5"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/en/ipad-1-b0d8898c4fdd.png",
+          "src": "/screenshots/en/ipad-1-db3651f0bcc6.png",
           "width": 2048,
           "height": 2732,
-          "hash": "b0d8898c4fdd",
-          "alt": "App Store iPad image 1"
+          "hash": "db3651f0bcc6",
+          "alt": "CosmoRemote iPad screenshot 1"
         },
         {
-          "src": "/screenshots/en/ipad-2-5d1191e0ce97.png",
+          "src": "/screenshots/en/ipad-2-3ceb2f291478.png",
           "width": 2048,
           "height": 2732,
-          "hash": "5d1191e0ce97",
-          "alt": "App Store iPad image 2"
+          "hash": "3ceb2f291478",
+          "alt": "CosmoRemote iPad screenshot 2"
         },
         {
-          "src": "/screenshots/en/ipad-3-e712469d836c.png",
+          "src": "/screenshots/en/ipad-3-2ac3c35a2634.png",
           "width": 2048,
           "height": 2732,
-          "hash": "e712469d836c",
-          "alt": "App Store iPad image 3"
+          "hash": "2ac3c35a2634",
+          "alt": "CosmoRemote iPad screenshot 3"
         },
         {
-          "src": "/screenshots/en/ipad-4-72c4229189ae.png",
+          "src": "/screenshots/en/ipad-4-b94b4ce9f3de.png",
           "width": 2048,
           "height": 2732,
-          "hash": "72c4229189ae",
-          "alt": "App Store iPad image 4"
+          "hash": "b94b4ce9f3de",
+          "alt": "CosmoRemote iPad screenshot 4"
         },
         {
-          "src": "/screenshots/en/ipad-5-ef5d4fb85a10.png",
+          "src": "/screenshots/en/ipad-5-1f1de7282032.png",
           "width": 2048,
           "height": 2732,
-          "hash": "ef5d4fb85a10",
-          "alt": "App Store iPad image 5"
+          "hash": "1f1de7282032",
+          "alt": "CosmoRemote iPad screenshot 5"
         }
       ],
       "macos": [],
-      "android-phone": [],
-      "android-tablet": []
+      "android-phone": [
+        {
+          "src": "/screenshots/en/android-phone-1-e6f254891bfd.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "e6f254891bfd",
+          "alt": "Play Store Android phone image 1"
+        },
+        {
+          "src": "/screenshots/en/android-phone-2-29ee468db183.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "29ee468db183",
+          "alt": "Play Store Android phone image 2"
+        },
+        {
+          "src": "/screenshots/en/android-phone-3-53d977b1a1fa.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "53d977b1a1fa",
+          "alt": "Play Store Android phone image 3"
+        },
+        {
+          "src": "/screenshots/en/android-phone-4-eb55e3a24ada.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "eb55e3a24ada",
+          "alt": "Play Store Android phone image 4"
+        },
+        {
+          "src": "/screenshots/en/android-phone-5-547a7e451b6e.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "547a7e451b6e",
+          "alt": "Play Store Android phone image 5"
+        }
+      ],
+      "android-tablet": [
+        {
+          "src": "/screenshots/en/android-tablet-7-1-73d780037fbf.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "73d780037fbf",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-10-1-12575b092895.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "12575b092895",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-7-2-693533a6ec41.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "693533a6ec41",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-10-2-95429d9373e8.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "95429d9373e8",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-7-3-70001467ebbc.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "70001467ebbc",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-10-3-a429ade4e035.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "a429ade4e035",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-7-4-41d56e6cabcc.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "41d56e6cabcc",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-10-4-fe2fcd906b5c.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "fe2fcd906b5c",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-7-5-c1e95086a38e.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "c1e95086a38e",
+          "alt": "Play Store Android tablet image 5"
+        },
+        {
+          "src": "/screenshots/en/android-tablet-10-5-e6cbb9547b65.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "e6cbb9547b65",
+          "alt": "Play Store Android tablet image 5"
+        }
+      ]
     },
     "pt-BR": {
       "iphone": [
         {
           "src": "/screenshots/pt-BR/iphone-1-784affd81df0.png",
-          "alt": "App Store iPhone image 1"
+          "width": 1284,
+          "height": 2778,
+          "hash": "784affd81df0",
+          "alt": "CosmoRemote iPhone screenshot 1"
         },
         {
           "src": "/screenshots/pt-BR/iphone-2-58c69a0bf58c.png",
-          "alt": "App Store iPhone image 2"
+          "width": 1284,
+          "height": 2778,
+          "hash": "58c69a0bf58c",
+          "alt": "CosmoRemote iPhone screenshot 2"
         },
         {
           "src": "/screenshots/pt-BR/iphone-3-b32e250ca035.png",
-          "alt": "App Store iPhone image 3"
+          "width": 1284,
+          "height": 2778,
+          "hash": "b32e250ca035",
+          "alt": "CosmoRemote iPhone screenshot 3"
         },
         {
           "src": "/screenshots/pt-BR/iphone-4-4e0b07d6040d.png",
-          "alt": "App Store iPhone image 4"
+          "width": 1284,
+          "height": 2778,
+          "hash": "4e0b07d6040d",
+          "alt": "CosmoRemote iPhone screenshot 4"
         },
         {
           "src": "/screenshots/pt-BR/iphone-5-7000be5e9cbd.png",
-          "alt": "App Store iPhone image 5"
+          "width": 1284,
+          "height": 2778,
+          "hash": "7000be5e9cbd",
+          "alt": "CosmoRemote iPhone screenshot 5"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/pt-BR/ipad-1-89bec5cd1b18.png",
-          "alt": "App Store iPad image 1"
+          "src": "/screenshots/pt-BR/ipad-1-bf2c7ccbcb4a.png",
+          "width": 2048,
+          "height": 2732,
+          "hash": "bf2c7ccbcb4a",
+          "alt": "CosmoRemote iPad screenshot 1"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-2-f57534ab65a9.png",
-          "alt": "App Store iPad image 2"
+          "src": "/screenshots/pt-BR/ipad-2-8aff26580534.png",
+          "width": 2048,
+          "height": 2732,
+          "hash": "8aff26580534",
+          "alt": "CosmoRemote iPad screenshot 2"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-3-078d4eba4b1e.png",
-          "alt": "App Store iPad image 3"
+          "src": "/screenshots/pt-BR/ipad-3-c0269c0498d8.png",
+          "width": 2048,
+          "height": 2732,
+          "hash": "c0269c0498d8",
+          "alt": "CosmoRemote iPad screenshot 3"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-4-05dec792798e.png",
-          "alt": "App Store iPad image 4"
+          "src": "/screenshots/pt-BR/ipad-4-a6d6a12c4ddf.png",
+          "width": 2048,
+          "height": 2732,
+          "hash": "a6d6a12c4ddf",
+          "alt": "CosmoRemote iPad screenshot 4"
         },
         {
-          "src": "/screenshots/pt-BR/ipad-5-bf658599b9d6.png",
-          "alt": "App Store iPad image 5"
+          "src": "/screenshots/pt-BR/ipad-5-4b3d0dd0ee45.png",
+          "width": 2048,
+          "height": 2732,
+          "hash": "4b3d0dd0ee45",
+          "alt": "CosmoRemote iPad screenshot 5"
         }
       ],
       "macos": [],
-      "android-phone": [],
-      "android-tablet": [],
+      "android-phone": [
+        {
+          "src": "/screenshots/pt-BR/android-phone-1-89e23dac2b58.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "89e23dac2b58",
+          "alt": "Play Store Android phone image 1"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-phone-2-32b25eee43a4.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "32b25eee43a4",
+          "alt": "Play Store Android phone image 2"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-phone-3-b971d28053ec.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "b971d28053ec",
+          "alt": "Play Store Android phone image 3"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-phone-4-4a1aea215b55.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "4a1aea215b55",
+          "alt": "Play Store Android phone image 4"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-phone-5-ecdfb42696e6.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "ecdfb42696e6",
+          "alt": "Play Store Android phone image 5"
+        }
+      ],
+      "android-tablet": [
+        {
+          "src": "/screenshots/pt-BR/android-tablet-7-1-d0936b680860.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "d0936b680860",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-10-1-1580ca57162e.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "1580ca57162e",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-7-2-b3a534260d75.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "b3a534260d75",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-10-2-b5d106436a46.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "b5d106436a46",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-7-3-0c23bc6c93c1.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "0c23bc6c93c1",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-10-3-6bee340e751e.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "6bee340e751e",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-7-4-0d473c582d9b.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "0d473c582d9b",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-10-4-6d55672b0a4e.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "6d55672b0a4e",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-7-5-6713d16c6f23.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "6713d16c6f23",
+          "alt": "Play Store Android tablet image 5"
+        },
+        {
+          "src": "/screenshots/pt-BR/android-tablet-10-5-fb74325d0c35.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "fb74325d0c35",
+          "alt": "Play Store Android tablet image 5"
+        }
+      ],
       "android-feature": []
     },
     "es": {
@@ -168,77 +412,184 @@
           "width": 1284,
           "height": 2778,
           "hash": "f3308709c9c5",
-          "alt": "App Store iPhone image 1"
+          "alt": "CosmoRemote iPhone screenshot 1"
         },
         {
           "src": "/screenshots/es/iphone-2-4eb8a6a0bc3b.png",
           "width": 1284,
           "height": 2778,
           "hash": "4eb8a6a0bc3b",
-          "alt": "App Store iPhone image 2"
+          "alt": "CosmoRemote iPhone screenshot 2"
         },
         {
           "src": "/screenshots/es/iphone-3-40ae922d6789.png",
           "width": 1284,
           "height": 2778,
           "hash": "40ae922d6789",
-          "alt": "App Store iPhone image 3"
+          "alt": "CosmoRemote iPhone screenshot 3"
         },
         {
           "src": "/screenshots/es/iphone-4-29f2ff23f88b.png",
           "width": 1284,
           "height": 2778,
           "hash": "29f2ff23f88b",
-          "alt": "App Store iPhone image 4"
+          "alt": "CosmoRemote iPhone screenshot 4"
         },
         {
           "src": "/screenshots/es/iphone-5-4e5a672d70c4.png",
           "width": 1284,
           "height": 2778,
           "hash": "4e5a672d70c4",
-          "alt": "App Store iPhone image 5"
+          "alt": "CosmoRemote iPhone screenshot 5"
         }
       ],
       "ipad": [
         {
-          "src": "/screenshots/es/ipad-1-1060acf97ec9.png",
+          "src": "/screenshots/es/ipad-1-eddc37f9cb18.png",
           "width": 2048,
           "height": 2732,
-          "hash": "1060acf97ec9",
-          "alt": "App Store iPad image 1"
+          "hash": "eddc37f9cb18",
+          "alt": "CosmoRemote iPad screenshot 1"
         },
         {
-          "src": "/screenshots/es/ipad-2-2b5d3bb08076.png",
+          "src": "/screenshots/es/ipad-2-199186af662c.png",
           "width": 2048,
           "height": 2732,
-          "hash": "2b5d3bb08076",
-          "alt": "App Store iPad image 2"
+          "hash": "199186af662c",
+          "alt": "CosmoRemote iPad screenshot 2"
         },
         {
-          "src": "/screenshots/es/ipad-3-82f42fbbf35b.png",
+          "src": "/screenshots/es/ipad-3-e5226acf1b8e.png",
           "width": 2048,
           "height": 2732,
-          "hash": "82f42fbbf35b",
-          "alt": "App Store iPad image 3"
+          "hash": "e5226acf1b8e",
+          "alt": "CosmoRemote iPad screenshot 3"
         },
         {
-          "src": "/screenshots/es/ipad-4-2aa0a23ba5ea.png",
+          "src": "/screenshots/es/ipad-4-37d640988713.png",
           "width": 2048,
           "height": 2732,
-          "hash": "2aa0a23ba5ea",
-          "alt": "App Store iPad image 4"
+          "hash": "37d640988713",
+          "alt": "CosmoRemote iPad screenshot 4"
         },
         {
-          "src": "/screenshots/es/ipad-5-d45e0b34381e.png",
+          "src": "/screenshots/es/ipad-5-9e54093138ac.png",
           "width": 2048,
           "height": 2732,
-          "hash": "d45e0b34381e",
-          "alt": "App Store iPad image 5"
+          "hash": "9e54093138ac",
+          "alt": "CosmoRemote iPad screenshot 5"
         }
       ],
       "macos": [],
-      "android-phone": [],
-      "android-tablet": []
+      "android-phone": [
+        {
+          "src": "/screenshots/es/android-phone-1-56f426ce42a0.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "56f426ce42a0",
+          "alt": "Play Store Android phone image 1"
+        },
+        {
+          "src": "/screenshots/es/android-phone-2-ab7014ad52f8.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "ab7014ad52f8",
+          "alt": "Play Store Android phone image 2"
+        },
+        {
+          "src": "/screenshots/es/android-phone-3-82a9a6081cd6.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "82a9a6081cd6",
+          "alt": "Play Store Android phone image 3"
+        },
+        {
+          "src": "/screenshots/es/android-phone-4-48bc6d212787.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "48bc6d212787",
+          "alt": "Play Store Android phone image 4"
+        },
+        {
+          "src": "/screenshots/es/android-phone-5-23aa03f2b15a.png",
+          "width": 1080,
+          "height": 2400,
+          "hash": "23aa03f2b15a",
+          "alt": "Play Store Android phone image 5"
+        }
+      ],
+      "android-tablet": [
+        {
+          "src": "/screenshots/es/android-tablet-7-1-acfe289552a3.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "acfe289552a3",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-10-1-7839d08dc554.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "7839d08dc554",
+          "alt": "Play Store Android tablet image 1"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-7-2-ca6f47e2f84d.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "ca6f47e2f84d",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-10-2-0d32ca8ba7da.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "0d32ca8ba7da",
+          "alt": "Play Store Android tablet image 2"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-7-3-ef6f1c572769.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "ef6f1c572769",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-10-3-c5330bde5296.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "c5330bde5296",
+          "alt": "Play Store Android tablet image 3"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-7-4-2b82aa6cc4a7.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "2b82aa6cc4a7",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-10-4-e512c4a289c0.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "e512c4a289c0",
+          "alt": "Play Store Android tablet image 4"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-7-5-a5606f27df1b.png",
+          "width": 1200,
+          "height": 1920,
+          "hash": "a5606f27df1b",
+          "alt": "Play Store Android tablet image 5"
+        },
+        {
+          "src": "/screenshots/es/android-tablet-10-5-e13e665b7065.png",
+          "width": 1600,
+          "height": 2560,
+          "hash": "e13e665b7065",
+          "alt": "Play Store Android tablet image 5"
+        }
+      ]
     }
   },
   "copy": {
@@ -251,11 +602,11 @@
       "ipad": true,
       "macos": false,
       "androidPhone": true,
-      "androidTablet": false,
+      "androidTablet": true,
       "web": false
     },
     "storeLinks": {
-      "appStore": null,
+      "appStore": "https://apps.apple.com/br/app/cosmoremote/id6761442464",
       "playStore": null,
       "macAppStore": null
     },
