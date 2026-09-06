@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AppStoreAttribution } from "@/components/analytics/AppStoreAttribution";
+import { PostHogAnalytics } from "@/components/analytics/PostHogAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cosmoremote.com"),
@@ -29,7 +31,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <PostHogAnalytics />
+        <AppStoreAttribution />
+        {children}
+      </body>
     </html>
   );
 }
