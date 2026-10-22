@@ -1,6 +1,7 @@
 import { Apple, ArrowUpRight, Smartphone, Tablet } from "lucide-react";
 import { SectionShell } from "@/components/landing/section-shell";
 import { Badge } from "@/components/ui/badge";
+import { serverStoreHref } from "@/lib/appStore";
 
 type DownloadCard = {
   platform: string;
@@ -34,6 +35,7 @@ export function Downloads({ content }: { content: DownloadContent }) {
       title={content.title}
       description={content.description}
     >
+      <div id="download" />
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {content.cards.map((card) => {
           const Icon = iconMap[card.platform as keyof typeof iconMap] ?? Smartphone;
@@ -75,7 +77,7 @@ export function Downloads({ content }: { content: DownloadContent }) {
             return (
               <a
                 key={card.title}
-                href={card.href}
+                href={serverStoreHref(card.href)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`group ${baseClass} transition-colors hover:border-white/30 hover:bg-white/12`}

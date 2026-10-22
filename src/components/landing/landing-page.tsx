@@ -14,7 +14,7 @@ export function LandingPage({ locale, dict }: { locale: Locale; dict: LandingDic
     <main className="min-h-screen overflow-x-clip bg-background text-foreground">
       <JsonLd dict={dict} locale={locale} />
       <Navbar locale={locale} labels={dict.nav} />
-      <Hero locale={locale} content={dict.hero} />
+      <Hero locale={locale} content={dict.hero} downloads={dict.downloads} />
       <FeatureBento content={dict.features} />
       <ScreenshotsGallery locale={locale} content={dict.screenshots} />
       <Pricing locale={locale} content={dict.pricing} />

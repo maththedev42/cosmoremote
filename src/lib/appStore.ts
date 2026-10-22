@@ -72,6 +72,31 @@ export function neutralizeStorePath(pathname: string): string {
   return idOnly ? `/app/${idOnly[1]}` : prefixed[1];
 }
 
+// Full-URL version of neutralizeStorePath: whatever the synced data says,
+// the rendered anchor is storefront-neutral. Non-Apple hrefs and relative
+// URLs pass through untouched.
+export function neutralizeStoreHref(href: string): string {
+  let url: URL;
+  try {
+    url = new URL(href);
+  } catch {
+    return href;
+  }
+  if (url.hostname !== "apps.apple.com") return href;
+  url.pathname = neutralizeStorePath(url.pathname);
+  return url.toString();
+}
+
+// Server-rendered store href: neutral storefront plus the default attribution
+// (pt + ct=landing + mt=8) baked in at build time, so crawlers, link
+// previews and pre-hydration clicks get the neutral URL too. The client-side
+// AppStoreAttribution pass overrides `ct` per visit; `set` is idempotent so
+// re-stamping a default-token link is a no-op.
+export function serverStoreHref(href: string | undefined): string | undefined {
+  if (!href) return href;
+  return withAppleAttribution(neutralizeStoreHref(href), DEFAULT_CAMPAIGN_TOKEN);
+}
+
 // Idempotent: `set` replaces, so re-stamping an anchor the observer already
 // touched produces the same URL instead of a second pair of tokens.
 export function withAppleAttribution(href: string, token: string): string {
@@ -93,5 +118,22 @@ export function withAppleAttribution(href: string, token: string): string {
   // CosmoRemote is an iPhone app; mt=8 opens the iOS App Store rather than Mac.
   if (!url.searchParams.has("mt")) url.searchParams.set("mt", "8");
 
+  return url.toString();
+}
+
+// Google Play campaign attribution for outbound Play Store links.
+export function withPlayAttribution(href: string, token: string): string {
+  let url: URL;
+  try {
+    url = new URL(href);
+  } catch {
+    return href;
+  }
+  if (!url.hostname.includes("play.google.com")) return href;
+
+  const ct = sanitizeCampaignToken(token);
+  if (!ct) return href;
+
+  url.searchParams.set("referrer", `utm_source=landing&utm_campaign=${ct}`);
   return url.toString();
 }

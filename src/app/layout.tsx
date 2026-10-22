@@ -6,21 +6,24 @@ import { PostHogAnalytics } from "@/components/analytics/PostHogAnalytics";
 export const metadata: Metadata = {
   metadataBase: new URL("https://cosmoremote.com"),
   title: {
-    default: "CosmoRemote",
+    default: "Test your app from your phone",
     template: "%s | CosmoRemote",
   },
-  description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
+  description:
+    "Your Mac builds and runs the project, your phone shows the screen. Simulator stream, web preview and API client for Claude Code and Codex users. iPhone, iPad and Android.",
   openGraph: {
-    title: "CosmoRemote",
-    description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
+    title: "Test your app from your phone",
+    description:
+      "Your Mac builds and runs the project, your phone shows the screen. Simulator stream, web preview and API client for Claude Code and Codex users. iPhone, iPad and Android.",
     type: "website",
     siteName: "CosmoRemote",
     url: "/",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CosmoRemote",
-    description: "Manage Claude Code and Codex from your phone. Coming soon for iPhone, iPad, and Android.",
+    title: "Test your app from your phone",
+    description:
+      "Your Mac builds and runs the project, your phone shows the screen. Simulator stream, web preview and API client for Claude Code and Codex users. iPhone, iPad and Android.",
   },
 };
 

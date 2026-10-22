@@ -95,7 +95,7 @@ export const legalContent: Record<Locale, LegalContent> = {
           title: "10. Your choices and account deletion",
           body: [
             "You can limit data processing by using local-only workflows where available, disabling optional telemetry or push notifications, deleting local session history, signing out, or removing paired devices.",
-            "To delete your account and associated data, use the account deletion option in the app Settings screen. You can also request deletion by contacting us at contato@cosmohq.org. We will process deletion requests within a reasonable timeframe, subject to legal retention obligations and backup cycles.",
+            `To delete your account and associated data, use the account deletion option in the app Settings screen. You can also request deletion by contacting us at ${PUBLIC_CONTACT_EMAIL}. We will process deletion requests within a reasonable timeframe, subject to legal retention obligations and backup cycles.`,
             `For other privacy requests or questions, contact CosmoRemote at ${PUBLIC_CONTACT_EMAIL}.`,
           ],
         },
@@ -229,7 +229,7 @@ export const legalContent: Record<Locale, LegalContent> = {
           title: "10. Suas escolhas e exclusão de conta",
           body: [
             "Você pode limitar o tratamento de dados usando fluxos locais quando disponíveis, desativando telemetria ou notificações push, apagando histórico local de sessões, saindo da conta ou removendo dispositivos pareados.",
-            "Para excluir sua conta e os dados associados, use a opção de exclusão de conta nas Configurações do app. Você também pode solicitar a exclusão entrando em contato pelo email contato@cosmohq.org. Processaremos solicitações de exclusão em um prazo razoável, respeitando obrigações legais de retenção e ciclos de backup.",
+            `Para excluir sua conta e os dados associados, use a opção de exclusão de conta nas Configurações do app. Você também pode solicitar a exclusão entrando em contato pelo email ${PUBLIC_CONTACT_EMAIL}. Processaremos solicitações de exclusão em um prazo razoável, respeitando obrigações legais de retenção e ciclos de backup.`,
             `Para outras solicitações de privacidade ou dúvidas, entre em contato com o CosmoRemote pelo email ${PUBLIC_CONTACT_EMAIL}.`,
           ],
         },
@@ -363,7 +363,7 @@ export const legalContent: Record<Locale, LegalContent> = {
           title: "10. Tus opciones y eliminación de cuenta",
           body: [
             "Puedes limitar el procesamiento de datos usando flujos solo locales cuando estén disponibles, desactivando la telemetría o las notificaciones push, eliminando el historial local de sesiones, cerrando sesión o eliminando dispositivos vinculados.",
-            "Para eliminar tu cuenta y los datos asociados, usa la opción de eliminación de cuenta en la Configuración de la app. También puedes solicitar la eliminación contactándonos en contato@cosmohq.org. Procesaremos las solicitudes de eliminación en un plazo razonable, respetando las obligaciones legales de retención y los ciclos de backup.",
+            `Para eliminar tu cuenta y los datos asociados, usa la opción de eliminación de cuenta en la Configuración de la app. También puedes solicitar la eliminación contactándonos en ${PUBLIC_CONTACT_EMAIL}. Procesaremos las solicitudes de eliminación en un plazo razonable, respetando las obligaciones legales de retención y los ciclos de backup.`,
             `Para otras solicitudes de privacidad o consultas, contacta a CosmoRemote en ${PUBLIC_CONTACT_EMAIL}.`,
           ],
         },

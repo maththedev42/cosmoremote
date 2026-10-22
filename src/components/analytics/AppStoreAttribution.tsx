@@ -12,9 +12,11 @@ import {
   CAMPAIGN_TOKEN_STORAGE_KEY,
   campaignTokenFrom,
   withAppleAttribution,
+  withPlayAttribution,
 } from "@/lib/appStore";
 
 const APP_STORE_LINKS = 'a[href*="apps.apple.com"]';
+const PLAY_STORE_LINKS = 'a[href*="play.google.com"]';
 
 // sessionStorage, not localStorage: a `ct` describes how someone arrived on
 // this visit. Carrying it into an unrelated visit weeks later would credit the
@@ -50,6 +52,12 @@ export function AppStoreAttribution() {
         .querySelectorAll<HTMLAnchorElement>(APP_STORE_LINKS)
         .forEach((link) => {
           const next = withAppleAttribution(link.href, token);
+          if (next !== link.href) link.setAttribute("href", next);
+        });
+      document
+        .querySelectorAll<HTMLAnchorElement>(PLAY_STORE_LINKS)
+        .forEach((link) => {
+          const next = withPlayAttribution(link.href, token);
           if (next !== link.href) link.setAttribute("href", next);
         });
     };

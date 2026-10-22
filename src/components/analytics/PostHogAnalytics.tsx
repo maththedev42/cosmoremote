@@ -52,12 +52,23 @@ export function PostHogAnalytics() {
     if (!KEY) return;
     const onClick = (event: Event) => {
       const target = event.target as HTMLElement | null;
-      const link = target?.closest?.('a[href*="apps.apple.com"]') as HTMLAnchorElement | null;
-      if (!link) return;
-      client()?.capture("app_store_click", {
-        href: link.href,
-        path: window.location.pathname,
-      });
+      const appleLink = target?.closest?.('a[href*="apps.apple.com"]') as HTMLAnchorElement | null;
+      if (appleLink) {
+        client()?.capture("app_store_click", {
+          href: appleLink.href,
+          path: window.location.pathname,
+          store: "apple",
+        });
+        return;
+      }
+      const playLink = target?.closest?.('a[href*="play.google.com"]') as HTMLAnchorElement | null;
+      if (playLink) {
+        client()?.capture("app_store_click", {
+          href: playLink.href,
+          path: window.location.pathname,
+          store: "play",
+        });
+      }
     };
     document.addEventListener("click", onClick, true);
     return () => document.removeEventListener("click", onClick, true);

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Gerencie seu Codex e Claude pelo celular",
-    "description": "Gerencie seu Codex e Claude pelo celular. CosmoRemote já está disponível na App Store para iPhone e iPad. Android em breve."
+    "title": "Teste seu app pelo celular",
+    "description": "Seu Mac compila e roda o projeto, seu celular mostra a tela. Simulador ao vivo, preview web e cliente de API para quem usa Claude Code e Codex. iPhone, iPad e Android."
   },
   "nav": {
     "brand": "CosmoRemote",
@@ -17,17 +17,17 @@
     }
   },
   "hero": {
-    "eyebrow": "Seu agente terminou. Você não estava na sua mesa.",
+    "eyebrow": "O agente diz que terminou. Você está na academia.",
     "title": "CosmoRemote",
-    "subtitle": "Continue de onde seu agente parou",
-    "description": "O Claude Code terminou um refactor há 20 minutos e você estava longe da mesa. O CosmoRemote coloca cada sessão (Claude Code, Codex, Cursor ou terminal) a um toque no seu celular, para você nunca perder o fio.",
-    "contactCta": "Fale com a gente",
-    "secondaryCta": "Ver as telas mais recentes",
-    "note": "iPhone e iPad já estão na App Store. Android continua Em breve - nada de botão falso da Play Store antes do link real.",
+    "subtitle": "Teste o que seu agente acabou de construir, pelo celular",
+    "description": "O CosmoRemote roda no seu Mac. Pelo celular você escolhe um projeto e um simulador, o Mac compila, instala e abre o app, e a tela aparece no seu celular. Navegue pela mudança, leia o log do build, chame sua API local e mande o próximo prompt sabendo o que quebrou de verdade.",
+    "primaryCta": "Baixar na App Store",
+    "secondaryCta": "Baixar no Google Play",
+    "note": "iPhone, iPad e Android já estão disponíveis. Escolha sua loja abaixo.",
     "platforms": [
       "iPhone • Disponível",
       "iPadOS • Disponível",
-      "Android celular • Em breve"
+      "Android celular • Disponível"
     ],
     "metrics": [
       {
@@ -40,54 +40,54 @@
       },
       {
         "value": "Grátis",
-        "label": "sem limite diário de mensagens"
+        "label": "na sua rede de casa"
       }
     ]
   },
   "features": {
     "eyebrow": "O que você ganha",
-    "title": "Toda a sua frota de agentes, no seu bolso",
-    "description": "O CosmoRemote mantém cada sessão de Claude, Codex, Cursor e Terminal em todos os seus computadores a um toque, onde você estiver.",
+    "title": "O que ele faz",
+    "description": "Tudo isso acontece no seu Mac. Seu celular só mostra o resultado.",
     "items": [
       {
         "icon": "stream",
-        "title": "Sua frota, ao vivo",
-        "description": "Veja cada sessão ativa em todas as suas máquinas atualizar em tempo real, token a token."
+        "title": "Compile e rode pelo celular",
+        "description": "Escolha um projeto, uma plataforma e um simulador ou emulador. O Mac compila, instala, abre e transmite a tela para o seu celular."
       },
       {
         "icon": "qr",
-        "title": "Conecte com um escaneamento",
-        "description": "Inicie o conector no seu Mac, escaneie o QR e pronto - conectado por um relay seguro, em casa ou onde estiver."
+        "title": "Navegue pelo resultado",
+        "description": "Toque, deslize e digite na transmissão. A entrada volta direto para o simulador."
       },
       {
         "icon": "code",
-        "title": "Claude, Codex, Cursor ou Terminal",
-        "description": "Escolha a CLI por sessão e use o agente certo para cada projeto."
+        "title": "Preview web",
+        "description": "Seu servidor de desenvolvimento local abre dentro do app pela ponte com o Mac."
       },
       {
         "icon": "spark",
-        "title": "Execute uma segunda sessão em paralelo (Pro)",
-        "description": "Inicie uma sessão no seu Mac mini e outra no seu MacBook, tudo no mesmo app. Sessões paralelas exigem o CosmoRemote Pro."
+        "title": "Cliente de API",
+        "description": "Envie requests para o backend no seu Mac e veja status, headers, tempo e histórico."
       },
       {
         "icon": "folder",
-        "title": "Conecte seu Mac",
-        "description": "Pareie seu Mac e acesse qualquer sessão. Adicione mais Macs ao assinar o Pro."
+        "title": "Logs do build e do app",
+        "description": "Ao lado da transmissão, para um build quebrado ser legível pelo celular."
       },
       {
         "icon": "status",
-        "title": "Um terminal de verdade, em qualquer lugar",
-        "description": "Abra um shell seguro para a sua máquina e continue trabalhando pelo celular."
+        "title": "Pareie com um scan",
+        "description": "Rode cosmoremote start no Mac, escaneie o QR e pronto. Na rede local não precisa de mais nada."
       },
       {
         "icon": "copy",
-        "title": "Copie qualquer saída",
-        "description": "Copie uma sessão inteira ou um único bloco de código direto para o seu fluxo."
+        "title": "Fora de casa (Pro)",
+        "description": "Fora da sua rede, o app passa por um relay criptografado. O Free cobre os testes na rede de casa com um Mac."
       },
       {
         "icon": "status",
-        "title": "Saiba o estado da conexão",
-        "description": "Indicadores de local, remoto e offline mantêm você orientado antes de enviar o próximo prompt."
+        "title": "Suas sessões continuam aqui",
+        "description": "Claude Code, Codex, Cursor ou um terminal, com histórico, para mandar o próximo prompt com o resultado na sua frente."
       }
     ]
   },
@@ -118,7 +118,7 @@
       },
       {
         "title": "Fluxo completo no iPhone",
-        "caption": "A quinta tela brasileira fecha o set atual de iPhone exportado.",
+        "caption": "Tudo no iPhone, pronto pra usar longe da mesa.",
         "variant": "pairing"
       },
       {
@@ -138,21 +138,21 @@
       },
       {
         "title": "Troque de agente num toque",
-        "caption": "Claude e Codex moram no mesmo controle remoto.",
+        "caption": "Claude e Codex no mesmo composer.",
         "variant": "composer"
       },
       {
         "title": "Pronto pra lançar",
-        "caption": "A última tela de iPad fecha o set atual sincronizado da loja.",
+        "caption": "Tudo no iPad, com espaço de sobra.",
         "variant": "history"
       }
     ]
   },
   "pricing": {
     "eyebrow": "Planos",
-    "title": "Comece grátis. Vá para o Pro quando precisar de mais Macs e sessões paralelas.",
-    "description": "O Grátis inclui mensagens ilimitadas, 1 Mac, 1 sessão por vez e 3 execuções locais de Tests por dia. O Pro libera múltiplos Macs, sessões paralelas, Tests remotos e notificações push.",
-    "monthlyLabel": "Pro Mensal",
+    "title": "Comece grátis. Vá de Pro para testar de qualquer lugar e em mais Macs.",
+    "description": "O Free inclui mensagens ilimitadas, 1 Mac, 1 sessão por vez e 3 execuções locais de Tests por dia. O Pro libera Tests remotos, vários Macs, sessões em paralelo e notificações push.",
+    "monthlyLabel": "Pro Mensual",
     "yearlyLabel": "Pro Anual",
     "monthlyValue": 19.9,
     "yearlyValue": 199.9,
@@ -194,14 +194,14 @@
   "downloads": {
     "eyebrow": "Downloads",
     "title": "Baixe o CosmoRemote",
-    "description": "CosmoRemote já está na App Store para iPhone e iPad. Android segue como Em breve até a build da Play Store ficar pronta.",
+    "description": "CosmoRemote já está na App Store e no Google Play. Escolha sua plataforma abaixo.",
     "comingSoon": "Status de lançamento",
     "cards": [
       {
         "platform": "iphone",
         "title": "iPhone",
         "status": "Disponível",
-        "note": "Controle remoto, streaming ao vivo e histórico de sessões - já disponíveis na App Store.",
+        "note": "Tests, preview web, cliente de API e suas sessões de agente - já disponíveis na App Store.",
         "available": true,
         "href": "https://apps.apple.com/br/app/cosmoremote/id6761442464",
         "cta": "Abrir na App Store"
@@ -218,8 +218,11 @@
       {
         "platform": "android",
         "title": "Android celular",
-        "status": "Em breve",
-        "note": "O Android seguirá o mesmo modelo de conexão local, acesso remoto seguro e histórico quando a build de loja estiver pronta."
+        "status": "Disponível",
+        "note": "Compile e rode seu projeto num emulador, transmitido para o seu celular - o mesmo fluxo de Tests do iOS.",
+        "available": true,
+        "href": "https://play.google.com/store/apps/details?id=com.cosmohq.cosmoremote",
+        "cta": "Baixar no Google Play"
       }
     ]
   },
@@ -229,24 +232,24 @@
     "description": "Nada de métricas infladas, links de loja falsos ou avaliações inventadas.",
     "questions": [
       {
-        "question": "O CosmoRemote já lançou?",
-        "answer": "iPhone e iPad já estão na App Store. Android continua Em breve - vamos atualizar assim que a build da Play Store ficar pronta."
+        "question": "O CosmoRemote já está disponível?",
+        "answer": "Sim. iPhone e iPad na App Store, Android no Google Play. A ponte roda no macOS."
       },
       {
-        "question": "Como vai funcionar o pareamento local?",
-        "answer": "Rode cosmoremote start, escaneie o QR e o app conecta ao Mac que está rodando sua sessão de Claude Code ou Codex."
+        "question": "Como funciona o pareamento?",
+        "answer": "Rode cosmoremote start no seu projeto, escaneie o QR com o app e o celular fala direto com o Mac na sua rede."
       },
       {
-        "question": "Dá pra alternar entre Claude Code e Codex?",
-        "answer": "Dá sim. Você escolhe a CLI por sessão antes de enviar os comandos."
+        "question": "O que o Tests faz de verdade?",
+        "answer": "É um preview ao vivo que você controla: o Mac compila e abre o app, você vê a tela e navega por ela. Não é um test runner, não há asserções nem passou ou falhou. Nos simuladores de iOS mais novos a transmissão é uma captura com alguns segundos de atraso."
       },
       {
-        "question": "O que entra no plano grátis?",
-        "answer": "Instalação, pareamento por QR, seleção de CLI e diretório, streaming, histórico, acesso offline, 1 Mac, 1 sessão por vez e mensagens ilimitadas por dia."
+        "question": "Posso alternar entre Claude Code e Codex?",
+        "answer": "Sim. Você escolhe a CLI por sessão antes de enviar comandos."
       },
       {
-        "question": "O que o Pro libera?",
-        "answer": "Múltiplos Macs, sessões paralelas, execuções remotas de Tests, notificações push e restauração de compras."
+        "question": "O que vem no Free?",
+        "answer": "Instalação, pareamento por QR, streaming, histórico, acesso offline, 1 Mac, 1 sessão por vez, mensagens ilimitadas e Tests na rede de casa. O Pro adiciona Tests fora de casa, vários Macs, sessões em paralelo e notificações push."
       },
       {
         "question": "Por que escolher o anual?",
@@ -256,7 +259,7 @@
   },
   "footer": {
     "brand": "CosmoRemote",
-    "tagline": "Agentes de código que te acompanham pra todo lado.",
+    "tagline": "Veja o build, não o diff.",
     "sectionsLabel": "Seções",
     "legalLabel": "Legal",
     "links": {
