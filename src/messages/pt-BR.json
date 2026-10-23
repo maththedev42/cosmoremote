@@ -5,7 +5,7 @@
   },
   "nav": {
     "brand": "CosmoRemote",
-    "tagline": "Seus agentes, ao seu alcance.",
+    "tagline": "Seu Mac, do seu celular.",
     "menuLabel": "Abrir menu",
     "prelaunch": "iOS disponível",
     "links": {
@@ -20,7 +20,7 @@
     "eyebrow": "O agente diz que terminou. Você está na academia.",
     "title": "CosmoRemote",
     "subtitle": "Teste o que seu agente acabou de construir, pelo celular",
-    "description": "O CosmoRemote roda no seu Mac. Pelo celular você escolhe um projeto e um simulador, o Mac compila, instala e abre o app, e a tela aparece no seu celular. Navegue pela mudança, leia o log do build, chame sua API local e mande o próximo prompt sabendo o que quebrou de verdade.",
+    "description": "O CosmoRemote roda no seu Mac, com o seu projeto lá; o celular é o controle. Pelo celular você escolhe um projeto e um simulador, o Mac compila, instala e abre o app, e a tela aparece no seu celular. Navegue pela mudança, leia o log do build, chame sua API local e mande o próximo prompt sabendo o que quebrou de verdade.",
     "primaryCta": "Baixar na App Store",
     "secondaryCta": "Baixar no Google Play",
     "note": "iPhone, iPad e Android já estão disponíveis. Escolha sua loja abaixo.",
@@ -31,7 +31,7 @@
     ],
     "metrics": [
       {
-        "value": "1 comando",
+        "value": "2 comandos",
         "label": "para conectar seu Mac"
       },
       {
@@ -97,53 +97,53 @@
     "description": "Cada imagem aqui vem da exportação de loja mais recente sincronizada para este idioma.",
     "items": [
       {
-        "title": "Controle de onde estiver",
-        "caption": "Claude Code e Codex de carona, direto do seu celular.",
+        "title": "Todas as sessões, todos os Macs",
+        "caption": "Rodando, ociosa, precisa de você e erro, numa tela só.",
         "variant": "sessions"
       },
       {
-        "title": "Sessão ao vivo",
-        "caption": "Veja o que o agente está fazendo sem precisar voltar pra mesa.",
+        "title": "Log do build ao lado da tela",
+        "caption": "Um build quebrado dá pra ler do ônibus.",
         "variant": "stream"
       },
       {
-        "title": "Histórico por projeto",
-        "caption": "As sessões ficam agrupadas por projeto pra você retomar de onde parou.",
+        "title": "A transcrição inteira vem junto",
+        "caption": "Continue uma conversa que você começou na mesa.",
         "variant": "history"
       },
       {
-        "title": "Mande o próximo prompt",
-        "caption": "O aparelho que já está na sua mão dispara o próximo comando.",
+        "title": "Mande o próximo prompt com o resultado na frente",
+        "caption": "Claude Code, Codex, Cursor e um terminal.",
         "variant": "composer"
       },
       {
-        "title": "Fluxo completo no iPhone",
-        "caption": "Tudo no iPhone, pronto pra usar longe da mesa.",
+        "title": "O QR aparece no terminal",
+        "caption": "Escaneie com a câmera, ou digite o código de 4 dígitos.",
         "variant": "pairing"
       },
       {
-        "title": "Workspace no iPad",
-        "caption": "Mais espaço pra Claude, Codex e o seletor de projetos lado a lado.",
+        "title": "A mesma tela, com mais espaço",
+        "caption": "O Fleet no iPad, com o seletor de projetos ao lado.",
         "variant": "sessions"
       },
       {
-        "title": "Saídas longas, com calma",
-        "caption": "O layout grande deixa execuções demoradas fáceis de revisar.",
+        "title": "Toque, deslize e digite",
+        "caption": "Os toques vão direto para o simulador.",
         "variant": "stream"
       },
       {
-        "title": "Conexão na cara",
-        "caption": "Local, remoto ou offline: o indicador sempre fala a verdade.",
+        "title": "Pareie escaneando o QR que o terminal mostra",
+        "caption": "Rode cosmoremote start no Mac e escaneie. Na rede local não precisa de mais nada.",
         "variant": "pairing"
       },
       {
-        "title": "Troque de agente num toque",
-        "caption": "Claude e Codex no mesmo composer.",
+        "title": "Claude Code, Codex e Cursor no mesmo composer",
+        "caption": "Troque de ferramenta sem sair da sessão.",
         "variant": "composer"
       },
       {
-        "title": "Pronto pra lançar",
-        "caption": "Tudo no iPad, com espaço de sobra.",
+        "title": "Histórico agrupado por projeto",
+        "caption": "As sessões ficam onde você parou.",
         "variant": "history"
       }
     ]
@@ -151,7 +151,7 @@
   "pricing": {
     "eyebrow": "Planos",
     "title": "Comece grátis. Vá de Pro para testar de qualquer lugar e em mais Macs.",
-    "description": "O Free inclui mensagens ilimitadas, 1 Mac, 1 sessão por vez e 3 execuções locais de Tests por dia. O Pro libera Tests remotos, vários Macs, sessões em paralelo e notificações push.",
+    "description": "O Free inclui mensagens ilimitadas, 1 Mac, 2 sessões por vez e execuções locais de Tests na sua rede de casa. O Pro libera Tests fora de casa, vários Macs e mais sessões em paralelo.",
     "monthlyLabel": "Pro Mensual",
     "yearlyLabel": "Pro Anual",
     "monthlyValue": 19.9,
@@ -167,13 +167,13 @@
     "toggleYearly": "Anual",
     "ctaFree": "Baixar CosmoRemote",
     "ctaPro": "Baixar CosmoRemote",
-    "monthlyDescription": "Múltiplos Macs, sessões paralelas, Tests remotos e notificações push, com cobrança mensal.",
-    "yearlyDescription": "Múltiplos Macs, sessões paralelas, Tests remotos e notificações push, com cobrança anual pelo melhor preço.",
+    "monthlyDescription": "Vários Macs, sessões paralelas e Tests remotos, com cobrança mensal.",
+    "yearlyDescription": "Vários Macs, sessões paralelas e Tests remotos, com cobrança anual pelo melhor preço.",
     "yearlyHighlight": "Melhor custo-benefício",
     "yearlyComparisonTemplate": "{monthlyTotal} se pagasse mensal vs {yearly} no plano anual.",
     "cards": {
       "free": [
-        "Instalação com um comando",
+        "Instalação com dois comandos",
         "Pareamento por QR",
         "Seletor de CLI + diretório",
         "Streaming em tempo real",
@@ -184,7 +184,6 @@
         "Múltiplos Macs",
         "Sessões paralelas",
         "Execuções remotas de Tests",
-        "Notificações push",
         "Opção Pro mensal",
         "Opção Pro anual",
         "Restaurar compras"
@@ -201,7 +200,7 @@
         "platform": "iphone",
         "title": "iPhone",
         "status": "Disponível",
-        "note": "Tests, preview web, cliente de API e suas sessões de agente - já disponíveis na App Store.",
+        "note": "Tests, preview web, cliente de API e suas sessões do Claude Code e do Codex - já disponíveis na App Store.",
         "available": true,
         "href": "https://apps.apple.com/br/app/cosmoremote/id6761442464",
         "cta": "Abrir na App Store"
@@ -231,6 +230,10 @@
     "title": "Respostas diretas",
     "description": "Nada de métricas infladas, links de loja falsos ou avaliações inventadas.",
     "questions": [
+      {
+        "question": "Preciso de um Mac?",
+        "answer": "Sim. A ponte roda no seu Mac e o seu projeto fica lá. O celular mostra a tela, o log do build e as suas sessões."
+      },
       {
         "question": "O CosmoRemote já está disponível?",
         "answer": "Sim. iPhone e iPad na App Store, Android no Google Play. A ponte roda no macOS."
