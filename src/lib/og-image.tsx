@@ -13,6 +13,12 @@ const dictionaries = {
   es,
 } satisfies Record<Locale, typeof en>;
 
+const ogTagline: Record<Locale, string> = {
+  en: "Test your app from your phone",
+  "pt-BR": "Teste seu app pelo celular",
+  es: "Prueba tu app desde el celular",
+};
+
 export const ogImageSize = {
   width: 1200,
   height: 630,
@@ -20,7 +26,7 @@ export const ogImageSize = {
 
 function getOgScreenshot(locale: Locale) {
   const shots = landingData.screenshots[locale] ?? landingData.screenshots.en;
-  return shots.ipad[0] ?? shots.iphone[0] ?? null;
+  return shots.iphone[0] ?? shots.ipad[0] ?? null;
 }
 
 async function readScreenshotDataUrl(locale: Locale) {
@@ -103,7 +109,7 @@ export async function renderLandingOgImage(locale: Locale) {
               lineHeight: 1,
             }}
           >
-            {dict.hero.title}
+            CosmoRemote
           </div>
           <div
             style={{
@@ -116,7 +122,7 @@ export async function renderLandingOgImage(locale: Locale) {
               display: "flex",
             }}
           >
-            {dict.hero.subtitle}
+            {ogTagline[locale] ?? ogTagline.en}
           </div>
           <div
             style={{
@@ -134,7 +140,7 @@ export async function renderLandingOgImage(locale: Locale) {
         {screenshotSrc ? (
           <div
             style={{
-              width: "360px",
+              width: "242px",
               height: "500px",
               borderRadius: 36,
               border: "1px solid rgba(255,255,255,0.22)",
@@ -149,12 +155,12 @@ export async function renderLandingOgImage(locale: Locale) {
             <img
               src={screenshotSrc}
               alt=""
-              width="340"
+              width="222"
               height="480"
               style={{
-                width: "340px",
+                width: "222px",
                 height: "480px",
-                objectFit: "cover",
+                objectFit: "contain",
                 objectPosition: "top left",
                 borderRadius: 28,
               }}

@@ -42,7 +42,22 @@
         "value": "Grátis",
         "label": "na sua rede de casa"
       }
-    ]
+    ],
+    "macFirst": {
+      "title": "Precisa de um Mac",
+      "body": "O CosmoRemote roda no seu Mac e o celular é o controle. Rode estes dois comandos no Mac primeiro:",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "emailLabel": "Longe do Mac? Receba os passos por e-mail",
+      "emailPlaceholder": "voce@exemplo.com",
+      "send": "Enviar",
+      "sent": "Enviado. Confira sua caixa de entrada.",
+      "error": "Não foi possível enviar. Tente de novo em um minuto.",
+      "commands": [
+        "curl -fsSL https://cosmoremote.com/install.sh | sh",
+        "cosmoremote start"
+      ]
+    }
   },
   "features": {
     "eyebrow": "O que você ganha",
@@ -97,54 +112,34 @@
     "description": "Cada imagem aqui vem da exportação de loja mais recente sincronizada para este idioma.",
     "items": [
       {
-        "title": "Todas as sessões, todos os Macs",
-        "caption": "Rodando, ociosa, precisa de você e erro, numa tela só.",
-        "variant": "sessions"
-      },
-      {
-        "title": "Log do build ao lado da tela",
-        "caption": "Um build quebrado dá pra ler do ônibus.",
+        "title": "Teste o que o agente fez",
+        "caption": "O Mac compila e abre o app. A tela chega no seu celular.",
         "variant": "stream"
       },
       {
-        "title": "A transcrição inteira vem junto",
-        "caption": "Continue uma conversa que você começou na mesa.",
-        "variant": "history"
+        "title": "Toque, deslize, digite",
+        "caption": "Cada toque vai direto para o simulador.",
+        "variant": "stream"
+      },
+      {
+        "title": "Build quebrou? Leia no celular",
+        "caption": "Logs de build e do app ao lado da tela.",
+        "variant": "stream"
       },
       {
         "title": "Mande o próximo prompt com o resultado na frente",
-        "caption": "Claude Code, Codex, Cursor e um terminal.",
+        "caption": "Claude Code, Codex, Cursor e terminal, com histórico.",
         "variant": "composer"
       },
       {
-        "title": "O QR aparece no terminal",
-        "caption": "Escaneie com a câmera, ou digite o código de 4 dígitos.",
-        "variant": "pairing"
-      },
-      {
-        "title": "A mesma tela, com mais espaço",
-        "caption": "O Fleet no iPad, com o seletor de projetos ao lado.",
+        "title": "Todas as sessões, todos os Macs, uma tela",
+        "caption": "Rodando, ociosa, precisa de você, erro.",
         "variant": "sessions"
       },
       {
-        "title": "Toque, deslize e digite",
-        "caption": "Os toques vão direto para o simulador.",
-        "variant": "stream"
-      },
-      {
-        "title": "Pareie escaneando o QR que o terminal mostra",
-        "caption": "Rode cosmoremote start no Mac e escaneie. Na rede local não precisa de mais nada.",
+        "title": "Pareie com um scan",
+        "caption": "Rode cosmoremote start no Mac. Escaneie. Pronto.",
         "variant": "pairing"
-      },
-      {
-        "title": "Claude Code, Codex e Cursor no mesmo composer",
-        "caption": "Troque de ferramenta sem sair da sessão.",
-        "variant": "composer"
-      },
-      {
-        "title": "Histórico agrupado por projeto",
-        "caption": "As sessões ficam onde você parou.",
-        "variant": "history"
       }
     ]
   },

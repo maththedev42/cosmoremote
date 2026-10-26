@@ -42,7 +42,22 @@
         "value": "Gratis",
         "label": "en tu red de casa"
       }
-    ]
+    ],
+    "macFirst": {
+      "title": "Necesita un Mac",
+      "body": "CosmoRemote corre en tu Mac y el móvil es el mando. Ejecuta primero estos dos comandos en el Mac:",
+      "copy": "Copiar",
+      "copied": "Copiado",
+      "emailLabel": "¿Lejos del Mac? Recibe los pasos por correo",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "send": "Enviar",
+      "sent": "Enviado. Revisa tu bandeja de entrada.",
+      "error": "No se pudo enviar. Inténtalo de nuevo en un minuto.",
+      "commands": [
+        "curl -fsSL https://cosmoremote.com/install.sh | sh",
+        "cosmoremote start"
+      ]
+    }
   },
   "features": {
     "eyebrow": "Lo que te llevas",
@@ -97,56 +112,41 @@
     "description": "Cada imagen viene de la última exportación de tienda sincronizada para este idioma.",
     "items": [
       {
-        "title": "Todas las sesiones, todos los Mac",
-        "caption": "En curso, inactiva, te necesita y error, en una sola pantalla.",
-        "variant": "sessions"
-      },
-      {
-        "title": "Log del build junto a la pantalla",
-        "caption": "Un build fallido se lee desde el tren.",
+        "title": "Prueba lo que hizo tu agente",
+        "caption": "El Mac compila y abre la app. La pantalla llega a tu teléfono.",
         "variant": "stream"
       },
       {
-        "title": "La transcripción completa viene contigo",
-        "caption": "Continúa una conversación que empezaste en el escritorio.",
-        "variant": "history"
+        "title": "Toca, desliza, escribe",
+        "caption": "Cada toque va directo al simulador.",
+        "variant": "stream"
       },
       {
-        "title": "Manda el siguiente prompt con el resultado delante",
-        "caption": "Claude Code, Codex, Cursor y una terminal.",
+        "title": "¿Falló el build? Léelo en el móvil",
+        "caption": "Logs de build y de la app junto a la pantalla.",
+        "variant": "stream"
+      },
+      {
+        "title": "Envía el siguiente prompt con el resultado delante",
+        "caption": "Claude Code, Codex, Cursor y terminal, con historial.",
         "variant": "composer"
       },
       {
-        "title": "La misma pantalla, con más espacio",
-        "caption": "El Fleet en iPad, con el selector de proyectos al lado.",
+        "title": "Todas las sesiones, todos los Mac, una pantalla",
+        "caption": "En curso, inactiva, te necesita, error.",
         "variant": "sessions"
       },
       {
-        "title": "Toca, desliza y escribe",
-        "caption": "La entrada va directo al simulador.",
-        "variant": "stream"
-      },
-      {
-        "title": "Empareja escaneando el QR que imprime la terminal",
-        "caption": "Ejecuta cosmoremote start en tu Mac y escanea. En tu red local no hace falta nada más.",
+        "title": "Empareja con un escaneo",
+        "caption": "Ejecuta cosmoremote start en el Mac. Escanea. Listo.",
         "variant": "pairing"
-      },
-      {
-        "title": "Claude Code, Codex y Cursor en el mismo composer",
-        "caption": "Cambia de herramienta sin salir de la sesión.",
-        "variant": "composer"
-      },
-      {
-        "title": "Historial agrupado por proyecto",
-        "caption": "Las sesiones quedan donde las dejaste.",
-        "variant": "history"
       }
     ]
   },
   "pricing": {
     "eyebrow": "Precios",
     "title": "Empieza gratis. Pasa a Pro para probar desde cualquier lugar y en más Macs.",
-    "description": "Free incluye mensajes ilimitados, 1 Mac, 2 sesiones a la vez y ejecuciones locales de Tests en tu red de casa. Pro desbloquea Tests fuera de casa, varias Macs y más sesiones en paralelo.",
+    "description": "Free incluye mensajes ilimitados, 1 Mac, 2 sesiones a la vez y ejecuciones locales de Tests en tu red de casa. Pro añade Tests fuera de casa, varias Macs y más sesiones en paralelo.",
     "monthlyLabel": "Pro Mensual",
     "yearlyLabel": "Pro Anual",
     "monthlyValue": 19.9,

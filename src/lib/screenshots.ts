@@ -12,9 +12,9 @@ export type ScreenshotAsset = {
 };
 
 const screenshotDimensions = {
-  iphone: { width: 1284, height: 2778 },
-  ipad: { width: 2048, height: 2732 },
-  "android-phone": { width: 1080, height: 2400 },
+  iphone: { width: 1320, height: 2868 },
+  ipad: { width: 2064, height: 2752 },
+  "android-phone": { width: 1080, height: 1920 },
   "android-tablet": { width: 1600, height: 2560 },
 } satisfies Record<ScreenshotDevice, { width: number; height: number }>;
 

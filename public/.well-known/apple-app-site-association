@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "278QJ34EC9.com.cosmohq.cosmoremote",
+        "paths": ["/pair*", "/pair"]
+      }
+    ]
+  }
+}

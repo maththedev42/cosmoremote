@@ -42,7 +42,22 @@
         "value": "Free",
         "label": "on your home network"
       }
-    ]
+    ],
+    "macFirst": {
+      "title": "Needs a Mac",
+      "body": "CosmoRemote runs on your Mac and your phone is the remote. Run these two commands on the Mac first:",
+      "copy": "Copy",
+      "copied": "Copied",
+      "emailLabel": "Not at your Mac? Email me the steps",
+      "emailPlaceholder": "you@example.com",
+      "send": "Email me",
+      "sent": "Sent. Check your inbox.",
+      "error": "Could not send. Try again in a minute.",
+      "commands": [
+        "curl -fsSL https://cosmoremote.com/install.sh | sh",
+        "cosmoremote start"
+      ]
+    }
   },
   "features": {
     "eyebrow": "What you get",
@@ -97,56 +112,41 @@
     "description": "Every screenshot here comes from the newest synchronized App Store export for this locale.",
     "items": [
       {
-        "title": "Every session on every Mac",
-        "caption": "Running, idle, needs you and errored, on one screen.",
-        "variant": "sessions"
-      },
-      {
-        "title": "Build log next to the screen",
-        "caption": "A failed build is readable from the train.",
+        "title": "Test what your agent built",
+        "caption": "The Mac builds and launches it. The screen streams to your phone.",
         "variant": "stream"
       },
       {
-        "title": "The whole transcript comes with it",
-        "caption": "Continue a conversation you started at the desk.",
-        "variant": "history"
+        "title": "Tap, swipe, type",
+        "caption": "Tap, swipe and type. Input goes straight to the simulator.",
+        "variant": "stream"
+      },
+      {
+        "title": "A failed build, readable from the phone",
+        "caption": "Build and app logs next to the screen.",
+        "variant": "stream"
       },
       {
         "title": "Send the next prompt with the result in front of you",
-        "caption": "Claude Code, Codex, Cursor and a terminal.",
+        "caption": "Claude Code, Codex, Cursor and a terminal, with history.",
         "variant": "composer"
       },
       {
-        "title": "The same screen, with more room",
-        "caption": "The Fleet on iPad, with the project switcher beside it.",
+        "title": "Every session, every Mac, one screen",
+        "caption": "Running, idle, needs you, errored.",
         "variant": "sessions"
       },
       {
-        "title": "Tap through the build",
-        "caption": "Tap, swipe and type on the stream; input goes back to the simulator.",
-        "variant": "stream"
-      },
-      {
-        "title": "Pair by scanning the QR the terminal prints",
-        "caption": "Run cosmoremote start on your Mac and scan. On your home network nothing else is needed.",
+        "title": "Pair in one scan",
+        "caption": "Run cosmoremote start on your Mac. Scan. Done.",
         "variant": "pairing"
-      },
-      {
-        "title": "Claude Code, Codex and Cursor in one composer",
-        "caption": "Switch tools without leaving the session.",
-        "variant": "composer"
-      },
-      {
-        "title": "History grouped by project",
-        "caption": "Sessions stay where you left them.",
-        "variant": "history"
       }
     ]
   },
   "pricing": {
     "eyebrow": "Pricing",
     "title": "Start free. Go Pro to test from anywhere and on more Macs.",
-    "description": "Free includes unlimited messages, 1 Mac, 2 sessions at a time, and local Tests runs on your home network. Pro unlocks Tests away from home, multiple Macs and more sessions in parallel.",
+    "description": "Free includes unlimited messages, 1 Mac, 2 sessions at a time, and local Tests runs on your home network. Pro adds Tests away from home, multiple Macs and more sessions in parallel.",
     "monthlyLabel": "Pro Monthly",
     "yearlyLabel": "Pro Yearly",
     "monthlyValue": 19.9,

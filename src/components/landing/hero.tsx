@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getHeroScreenshots, getScreenshotDimensions } from "@/lib/screenshots";
 import type { Locale } from "@/lib/i18n";
+import { MacFirst, type MacFirstContent } from "@/components/landing/mac-first";
 
 type HeroProps = {
   locale: Locale;
@@ -21,6 +22,7 @@ type HeroProps = {
     note: string;
     platforms: string[];
     metrics: Array<{ value: string; label: string }>;
+    macFirst?: MacFirstContent;
   };
   downloads?: {
     cards: Array<{
@@ -61,6 +63,8 @@ export function Hero({ locale, content, downloads }: HeroProps) {
           </h1>
 
           <p className="mt-5 max-w-prose text-base leading-7 text-white/78 md:text-lg">{content.description}</p>
+
+          {content.macFirst ? <MacFirst locale={locale} content={content.macFirst} /> : null}
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <Button
